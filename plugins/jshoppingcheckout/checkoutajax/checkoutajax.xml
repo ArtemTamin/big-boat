@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="jshoppingcheckout">
+    <name>JoomShopping - CheckoutAjax</name>
+    <creationDate>27.01.2019</creationDate>
+    <version>1.6.6</version>
+    <author>Garry</author>
+    <authorEmail>info@joom-shopping.com</authorEmail>
+    <authorUrl>https://joom-shopping.com</authorUrl>
+    <copyright>Copyright 2019 joom-shopping.com</copyright>
+    <license>Gnu Gpl v3</license>
+    <description>Ajax wrapper for checkout process.</description>     
+    <files>
+		<folder>language</folder>
+        <filename plugin="checkoutajax">checkoutajax.php</filename>
+        <filename>checkoutajax.js</filename>
+        <filename>checkoutajax.css</filename>
+        <filename>index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="usestandartlogin" type="radio"
+                    default="0"
+                    description="Used default template login/registration"
+                    label="Used default template login/registration"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+            </fieldset>
+
+        </fields>
+    </config>
+</extension>

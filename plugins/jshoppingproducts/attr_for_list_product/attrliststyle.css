@@ -1,0 +1,72 @@
+.attrib .attributes_title,
+.attrib .attributes_value {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.att_none {
+    margin: 5px 0px;
+}
+
+.att_none span.radio_attr_label {
+    font-size: 14px;
+}
+
+.attributes_title span[title*=' '] {
+    cursor: help;
+    border-bottom: 1px dotted #ccc;
+}
+
+.clear {
+    clear: both
+}
+
+.attrib-empty-option {
+    position: absolute;
+    z-index: 9;
+    max-width: 280px;
+    display: none;
+    opacity: 0;
+}
+
+.attrib-empty-option div {
+    position: relative;
+    width: 100%;
+    min-height: 25px;
+    background: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #87203f;
+    box-shadow: 0 0 7px #ccc;
+    max-width: 250px;
+}
+
+.attrib-empty-option span {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #999999;
+}
+
+.attrib-empty-option div::before,
+.attrib-empty-option div::after {
+    content: '';
+    position: absolute;
+    left: 47%;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid #cccccc;
+}
+
+.attrib-empty-option div::after {
+    border-top: 10px solid #ffffff;
+    bottom: -19px;
+}
+
+.disable_buttonbuy {
+    opacity: 0.5;
+}

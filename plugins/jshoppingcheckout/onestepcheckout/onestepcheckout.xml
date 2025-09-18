@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="jshoppingcheckout" method="upgrade">
+	<name>JoomShopping - One Step Checkout</name>
+	<author>Garry</author>
+	<creationDate>April, 2021</creationDate>
+	<copyright>Copyright © All rights reserved.</copyright>
+	<license>GNU GPL v3</license>
+	<authorEmail>info@joom-shopping.com</authorEmail>
+	<authorUrl>https://joom-shopping.com/</authorUrl>
+    <version>4.7</version>
+	<description><![CDATA[More extensions for Joomshopping on <a href="https://joom-shopping.com" target="_blank">joom-shopping.com</a>]]></description>
+	<files>
+		<filename plugin="onestepcheckout">onestepcheckout.php</filename>
+	</files>
+</extension>

@@ -1,0 +1,132 @@
+php_flag register_globals off
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.big-boat.ru$ [NC]
+RewriteRule ^(.*)$ http://big-boat.ru$1 [R=301,L]
+Redirect 301 /tuning/neman http://big-boat.ru/a-boats/neman
+Redirect 301 /boats/dinghy http://big-boat.ru/dinghy
+Redirect 301 /a-boats/combi-boat/r-20 http://big-boat.ru/a-boats/neman
+Redirect 301 /a-boats/neman/product/view/15/196 http://big-boat.ru/a-boats/neman/k-48
+Redirect 301 /a-boats/plastic-boat/pn-1 http://big-boat.ru/a-boats/neman/k-34
+Redirect 301 /a-boats/plastic-boat/pn-2 http://big-boat.ru/a-boats/neman/k-35
+Redirect 301 /a-boats/plastic-boat/pn-3 http://big-boat.ru/a-boats/neman/k-37
+Redirect 301 /a-boats/plastic-boat/pn-4 http://big-boat.ru/a-boats/neman/k-39
+Redirect 301 /a-boats/plastic-boat/pn-5 http://big-boat.ru/a-boats/neman/k-36
+Redirect 301 /a-boats/plastic-boat/pn-6 http://big-boat.ru/a-boats/neman/k-40
+Redirect 301 /a-boats/rib/na http://big-boat.ru/a-boats/neman/k-48
+Redirect 301 /a-boats/rib/na-2 http://big-boat.ru/a-boats/neman/k-41
+Redirect 301 /a-boats/rib/na-3 http://big-boat.ru/a-boats/neman/product/view/15/197
+Redirect 301 /a-boats/combi-boat/ko-1 http://big-boat.ru/a-boats/neman/k-42
+Redirect 301 /a-boats/combi-boat/ko-2 http://big-boat.ru/a-boats/neman/g-1
+Redirect 301 /a-boats/combi-boat/ko-3 http://big-boat.ru/a-boats/neman/g-3
+Redirect 301 /a-boats/combi-boat/ko-4 http://big-boat.ru/a-boats/neman/g-7
+Redirect 301 /a-boats/rib/na-4 http://big-boat.ru/a-boats/neman/k-44
+Redirect 301 /yamaha-two http://big-boat.ru/tuning/motor
+Redirect 301 /dinghy/l-59 http://big-boat.ru/dinghy/grebnye/bigboat-tau200
+Redirect 301 /dinghy/l-31 http://big-boat.ru/dinghy/grebnye/bigboat-tau200
+Redirect 301 /dinghy/l-30 http://big-boat.ru/dinghy/grebnye/bigboat-tau200
+Redirect 301 /dinghy/l-26 http://big-boat.ru/dinghy/trantsevye/bigboat-c240
+Redirect 301 /dinghy/l-3 http://big-boat.ru/dinghy/trantsevye/bigboat-c240
+Redirect 301 /dinghy/l-10 http://big-boat.ru/dinghy/trantsevye/bigboat-c240
+Redirect 301 /dinghy/l-16 http://big-boat.ru/dinghy/trantsevye/bigboat-c240
+Redirect 301 /dinghy/l-14 http://big-boat.ru/dinghy/trantsevye/bigboat-c240
+Redirect 301 /dinghy/l-27 http://big-boat.ru/dinghy/trantsevye/bigboat-c240
+Redirect 301 /dinghy/l-18 http://big-boat.ru/dinghy/trantsevye/bigboat-c280
+Redirect 301 /dinghy/l-11 http://big-boat.ru/dinghy/trantsevye/bigboat-c280
+Redirect 301 /dinghy/l-6 http://big-boat.ru/dinghy/trantsevye/bigboat-c280
+Redirect 301 /dinghy/l-8 http://big-boat.ru/dinghy/trantsevye/bigboat-c280
+Redirect 301 /dinghy/l-15 http://big-boat.ru/dinghy/trantsevye/bigboat-c280
+Redirect 301 /dinghy/l-17 http://big-boat.ru/dinghy/trantsevye/bigboat-c280
+Redirect 301 /dinghy/l-7 http://big-boat.ru/dinghy/kilevye/bigboat-t250k
+Redirect 301 /dinghy/l-9 http://big-boat.ru/dinghy/kilevye/bigboat-t250k
+Redirect 301 /dinghy/l-19 http://big-boat.ru/dinghy/kilevye/bigboat-t250k
+Redirect 301 /dinghy/l-29 http://big-boat.ru/dinghy/kilevye/bigboat-t250k
+Redirect 301 /dinghy/l-21 http://big-boat.ru/dinghy/kilevye/bigboat-t250k
+Redirect 301 /dinghy/l-20 http://big-boat.ru/dinghy/kilevye/bigboat-t250k
+Redirect 301 /dinghy/l-13 http://big-boat.ru/dinghy/kilevye/bigboat-t250k
+Redirect 301 /dinghy/l-22 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/l-23 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/l-24 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/l-32 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/l-25 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/l-33 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/l-35 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/380kpk http://big-boat.ru/dinghy/kilevye/bigboat-320k
+Redirect 301 /dinghy/l-61 http://big-boat.ru/dinghy/kilevye/bigboat-320k
+php_value session.save_handler "beget"
+php_value session.save_path "tcp://127.0.0.1:6380"
+##
+# @package    Joomla
+# @copyright  Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.
+# @license    GNU General Public License version 2 or later; see LICENSE.txt
+##
+
+##
+# READ THIS COMPLETELY IF YOU CHOOSE TO USE THIS FILE!
+#
+# with some server configurations.  It is required for use of mod_rewrite, but may already
+# be set by your server administrator in a way that disallows changing it in
+# your .htaccess file.  If using it causes your server to error out, comment it out (add # to
+# beginning of line), reload your site in your browser and test your sef url's.  If they work,
+# it has been set by your server administrator and you do not need it set here.
+##
+
+## No directory listings
+IndexIgnore *
+
+## Can be commented out if causes errors, see notes above.
+Options -Indexes
+
+## Mod_rewrite in use.
+
+## Begin - Rewrite rules to block out some common exploits.
+# If you experience problems on your site block out the operations listed below
+# This attempts to block the most common type of exploit `attempts` to Joomla!
+#
+# Block out any script trying to base64_encode data within the URL.
+RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
+# Block out any script that includes a <script> tag in URL.
+RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL.
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL.
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+# Return 403 Forbidden header and show the content of the root homepage
+RewriteRule .* index.php [F]
+#
+## End - Rewrite rules to block out some common exploits.
+
+## Begin - Custom redirects
+#
+# If you need to redirect some pages, or set a canonical non-www to
+# www redirect (or vice versa), place that code here. Ensure those
+# redirects use the correct RewriteRule syntax and the [R=301,L] flags.
+#
+## End - Custom redirects
+
+##
+# Uncomment following line if your webserver's URL
+# is not directly related to physical file paths.
+# Update Your Joomla! Directory (just / for root).
+##
+
+# RewriteBase /
+
+## Begin - Joomla! core SEF Section.
+#
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+#
+# If the requested path and file is not /index.php and the request
+# has not already been internally rewritten to the index.php script
+RewriteCond %{REQUEST_URI} !^/index\.php
+# and the requested path and file doesn't directly match a physical file
+RewriteCond %{REQUEST_FILENAME} !-f
+# and the requested path and file doesn't directly match a physical folder
+RewriteCond %{REQUEST_FILENAME} !-d
+# internally rewrite the request to the index.php script
+RewriteRule .* index.php [L]
+#
+## End - Joomla! core SEF Section.
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml
+########## Begin - ETag Optimization

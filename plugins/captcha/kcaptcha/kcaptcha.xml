@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="captcha">
+	<name>plg_captcha_kcaptcha</name>
+	<version>2.5.0</version>
+	<creationDate>June 2012</creationDate>
+	<author>VampiRUS</author>
+	<authorEmail>vamp1rus@yandex.ru</authorEmail>
+	<authorUrl>vampirus.ru</authorUrl>
+	<copyright>vampirus.ru (C)</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<description>PLG_CAPTCHA_KCAPTCHA_XML_DESCRIPTION</description>
+	<files>
+		<filename
+			plugin="kcaptcha">kcaptcha.php</filename>
+		<filename>lib.php</filename>
+		<filename>index.html</filename>
+		<filename>img.php</filename>
+		<folder>fonts</folder>
+		<folder>languages</folder>
+	</files>
+<languages>
+		<language tag="en-GB">languages/en-GB/en-GB.plg_captcha_kcaptcha.ini</language>
+		<language tag="en-GB">languages/en-GB/en-GB.plg_captcha_kcaptcha.sys.ini</language>
+		<language tag="ru-RU">languages/ru-RU/ru-RU.plg_captcha_kcaptcha.ini</language>
+		<language tag="ru-RU">languages/ru-RU/ru-RU.plg_captcha_kcaptcha.sys.ini</language>
+</languages>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+		<field
+			name="allowed_symbols"
+			type="text"
+			default="23456789abcdegikpqsvxyz"
+			label="PLG_KCAPTCHA_ALLOWED_SYMBOLS_LABEL"
+			description="PLG_KCAPTCHA_ALLOWED_SYMBOLS_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+
+		<field
+			name="min_length"
+			type="text"
+			default="5"
+			label="PLG_KCAPTCHA_MIN_LENGTH_LABEL"
+			description="PLG_KCAPTCHA_MIN_LENGTH_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+		<field
+			name="max_length"
+			type="text"
+			default="7"
+			label="PLG_KCAPTCHA_MAX_LENGTH_LABEL"
+			description="PLG_KCAPTCHA_MAX_LENGTH_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+		<field
+			name="width"
+			type="text"
+			default="160"
+			label="PLG_KCAPTCHA_WIDTH_LABEL"
+			description="PLG_KCAPTCHA_WIDTH_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+		<field
+			name="height"
+			type="text"
+			default="80"
+			label="PLG_KCAPTCHA_HEIGHT_LABEL"
+			description="PLG_KCAPTCHA_HEIGHT_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+		<field
+			name="fluctuation_amplitude"
+			type="text"
+			default="8"
+			label="PLG_KCAPTCHA_FLUCTUATION_AMPLITUDE_LABEL"
+			description="PLG_KCAPTCHA_FLUCTUATION_AMPLITUDE_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+		<field
+			name="white_noise_density"
+			type="text"
+			default="0.17"
+			label="PLG_KCAPTCHA_WHITE_NOISE_DENSITY_LABEL"
+			description="PLG_KCAPTCHA_WHITE_NOISE_DENSITY_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+		<field
+			name="black_noise_density"
+			type="text"
+			default="0.03"
+			label="PLG_KCAPTCHA_BLACK_NOISE_DENSITY_LABEL"
+			description="PLG_KCAPTCHA_BLACK_NOISE_DENSITY_DESC"
+			required="true"
+			filter="string"
+			size="50" />
+		<field
+			name="show_credits"
+			type="radio"
+			default="1"
+			label="PLG_KCAPTCHA_SHOW_CREDITS_LABEL"
+			description="PLG_KCAPTCHA_SHOW_CREDITS_DESC"
+			>
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field
+			name="credits"
+			type="text"
+			default="vampirus.ru"
+			label="PLG_KCAPTCHA_CREDITS_LABEL"
+			description="PLG_KCAPTCHA_CREDITS_DESC"
+			filter="string"
+			size="50" />
+		<field
+			name="no_spaces"
+			type="radio"
+			default="1"
+			label="PLG_KCAPTCHA_NO_SPACES_LABEL"
+			description="PLG_KCAPTCHA_NO_SPACES_DESC"
+			>
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		</fieldset>
+	</fields>
+	</config>
+</extension>

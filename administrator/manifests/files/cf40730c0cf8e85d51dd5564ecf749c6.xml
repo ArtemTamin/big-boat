@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="file" method="upgrade">
+	<name>cf40730c0cf8e85d51dd5564ecf749c6</name>
+	<author>JoomLang</author>
+	<authorEmail>pochta@joomlang.ru</authorEmail>
+	<authorUrl>http://www.joomlang.ru</authorUrl>
+	<creationDate>19/03/2015</creationDate>
+	<copyright>Copyright © 2012 - 2015 www.joomlang.ru. Все права защищены.</copyright>
+	<license>http://www.joomlang.ru/license.html</license>
+	<version>5.0.9-3</version>
+	<description>Русификатор ChronoForms5</description>
+	<scriptfile>script.php</scriptfile>
+	<fileset>
+		<files folder="." target="administrator/components/com_chronoforms5/chronoforms/locales/ru_ru">
+			<filename>index.html</filename>
+		</files>
+		<files folder="." target="libraries/cegcore/locales/ru_ru">
+			<filename>index.html</filename>
+		</files>
+		<files folder="." target="language/ru-RU">
+			<filename>ru-RU.files_cf40730c0cf8e85d51dd5564ecf749c6.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

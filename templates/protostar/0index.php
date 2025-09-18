@@ -1,0 +1,306 @@
+<?php
+/**
+ * @package     Joomla.Site
+ * @subpackage  Templates.protostar
+ *
+ * @copyright   Copyright (C) 2005 - 2016 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
+defined('_JEXEC') or die;
+
+$app             = JFactory::getApplication();
+$doc             = JFactory::getDocument();
+$user            = JFactory::getUser();
+$this->language  = $doc->language;
+$this->direction = $doc->direction;
+
+// Output as HTML5
+$doc->setHtml5(true);
+
+// Getting params from template
+$params = $app->getTemplate(true)->params;
+
+// Detecting Active Variables
+$option   = $app->input->getCmd('option', '');
+$view     = $app->input->getCmd('view', '');
+$layout   = $app->input->getCmd('layout', '');
+$task     = $app->input->getCmd('task', '');
+$itemid   = $app->input->getCmd('Itemid', '');
+$sitename = $app->get('sitename');
+
+if($task == "edit" || $layout == "form" )
+{
+	$fullWidth = 1;
+}
+else
+{
+	$fullWidth = 0;
+}
+
+// Add JavaScript Frameworks
+JHtml::_('bootstrap.framework');
+
+$doc->addScriptVersion($this->baseurl . '/templates/' . $this->template . '/js/template.js');
+
+// Add Stylesheets
+$doc->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/template.css');
+
+// Use of Google Font
+if ($this->params->get('googleFont'))
+{
+	$doc->addStyleSheet('//fonts.googleapis.com/css?family=' . $this->params->get('googleFontName'));
+	$doc->addStyleDeclaration("
+	h1, h2, h3, h4, h5, h6, .site-title {
+		font-family: '" . str_replace('+', ' ', $this->params->get('googleFontName')) . "', sans-serif;
+	}");
+}
+
+// Template color
+if ($this->params->get('templateColor'))
+{
+	$doc->addStyleDeclaration("
+	body.site {
+		border-top: 3px solid " . $this->params->get('templateColor') . ";
+		background-color: " . $this->params->get('templateBackgroundColor') . ";
+	}
+	a {
+		color: " . $this->params->get('templateColor') . ";
+	}
+	.nav-list > .active > a,
+	.nav-list > .active > a:hover,
+	.dropdown-menu li > a:hover,
+	.dropdown-menu .active > a,
+	.dropdown-menu .active > a:hover,
+	.nav-pills > .active > a,
+	.nav-pills > .active > a:hover,
+	.btn-primary {
+		background: " . $this->params->get('templateColor') . ";
+	}");
+}
+
+// Check for a custom CSS file
+$userCss = JPATH_SITE . '/templates/' . $this->template . '/css/user.css';
+
+if (file_exists($userCss) && filesize($userCss) > 0)
+{
+	$this->addStyleSheetVersion($this->baseurl . '/templates/' . $this->template . '/css/user.css');
+}
+
+// Load optional RTL Bootstrap CSS
+JHtml::_('bootstrap.loadCss', false, $this->direction);
+
+// Adjusting content width
+if ($this->countModules('position-7') && $this->countModules('position-8'))
+{
+	$span = "span6";
+}
+elseif ($this->countModules('position-7') && !$this->countModules('position-8'))
+{
+	$span = "span9";
+}
+elseif (!$this->countModules('position-7') && $this->countModules('position-8'))
+{
+	$span = "span9";
+}
+else
+{
+	$span = "span12";
+}
+
+// Logo file or site title param
+/*if ($this->params->get('logoFile'))
+{
+	$logo = '<img src="' . JUri::root() . $this->params->get('logoFile') . '" alt="' . $sitename . '" />';
+}
+elseif ($this->params->get('sitetitle'))
+{
+	$logo = '<span class="site-title" title="' . $sitename . '">' . htmlspecialchars($this->params->get('sitetitle'), ENT_COMPAT, 'UTF-8') . '</span>';
+}
+else
+{
+	$logo = '<span class="site-title" title="' . $sitename . '">' . $sitename . '</span>';
+}*/
+?>
+<!DOCTYPE html>
+<html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<jdoc:include type="head" />
+	<!--[if lt IE 9]><script src="<?php echo JUri::root(true); ?>/media/jui/js/html5.js"></script><![endif]-->
+<script src='/js/sipuni-calltracking.js'></script>
+</head>
+<body class="site <?php echo $option
+	. ' view-' . $view
+	. ($layout ? ' layout-' . $layout : ' no-layout')
+	. ($task ? ' task-' . $task : ' no-task')
+	. ($itemid ? ' itemid-' . $itemid : '')
+	. ($params->get('fluidContainer') ? ' fluid' : '');
+	echo ($this->direction == 'rtl' ? ' rtl' : '');
+?>">
+	<!-- Body -->
+	<div class="body">
+		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
+			<!-- Header -->
+			<header class="header" role="banner">
+				<div class="header-inner clearfix">
+					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>/">
+						<?php echo $logo; ?>
+						<?php if ($this->params->get('sitedescription')) : ?>
+							<?php echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription'), ENT_COMPAT, 'UTF-8') . '</div>'; ?>
+						<?php endif; ?>
+					</a>
+					<!--Мой код-->
+      <!--Позиция top -->
+	        <div class="header-search pull-left">
+            <div class="top">
+            <jdoc:include type="modules" name="top" style="none" />
+            </div>
+			
+            </div>
+
+      <!--Позиция phoneNumber -->
+            <div id="mydiv" class="header-search pull-left-center" style=" height:100%; min-height:100%; vertical-align:bottom; display:table; padding:0; margin:0;">
+            
+            <div class="phoneNumber" style="display:table-cell; vertical-align:bottom; ">
+            <jdoc:include type="modules" name="phoneNumber" style="none" />
+                	<center><p> <span class="ct_phone" style="font-size:xx-large;"><a href="tel:88002508076">8-800-250-80-76</a></span></p>
+    				<span style="font-size:medium;padding-top: 0px;margin-top: 20px;display: table;">Бесплатные звонки по России</span></center>
+            </div>
+            </div>
+
+       <!--Позиция vhod -->
+            <div class="header-search pull-right">
+			<div class="social-block"><jdoc:include type="modules" name="socialblock" style="none" /></div>
+            <div class="vhod">
+            <jdoc:include type="modules" name="vhod" style="none" />
+			</div>
+            </div>
+<!--<img src="/images/Nashi-preimuschestva-sery.jpg" alt="Преимущества Big Boat Ltd" width="1800" height="104" />-->
+<script>
+  function ready() {
+          if (document.body.clientWidth>700){
+          document.getElementById('mydiv').style.width="45%";
+        }
+        else
+        {
+          document.getElementById('mydiv').style.width="100%";
+        
+        }
+  }
+
+  document.addEventListener("DOMContentLoaded", ready);
+  window.addEventListener("resize", ready);
+  
+</script>
+<script>
+  function ready() {
+          if (document.body.clientWidth>700){
+          document.getElementById('mydiv2').style.width="15%";
+        }
+        else
+        {
+          document.getElementById('mydiv2').style.width="100%";
+        
+        }
+  }
+
+  document.addEventListener("DOMContentLoaded", ready);
+  window.addEventListener("resize", ready);
+  
+</script>
+            
+            
+      <!--Конец моего кода -->
+					<div class="header-search pull-right">
+						<jdoc:include type="modules" name="position-0" style="none" />
+					</div>
+				</div>
+			</header>
+			<?php if ($this->countModules('position-1')) : ?>
+				<nav class="navigation" role="navigation">
+					<div class="navbar pull-left">
+						<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="slicknav_menutxt">Меню</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+					</div>
+					<div class="nav-collapse">
+						<jdoc:include type="modules" name="position-1" style="none" />
+					</div>
+				</nav>
+			<?php endif; ?>
+			<jdoc:include type="modules" name="banner" style="xhtml" />
+			<div class="row-fluid">
+				<?php if ($this->countModules('position-8')) : ?>
+					<!-- Begin Sidebar -->
+					<div id="sidebar" class="span3">
+						<div class="sidebar-nav">
+							<jdoc:include type="modules" name="position-8" style="xhtml" />
+						</div>
+					</div>
+					<!-- End Sidebar -->
+				<?php endif; ?>
+				<main id="content" role="main" class="<?php echo $span; ?>">
+					<!-- Begin Content -->
+                    
+                  <div id="totalusage">
+                       <div class="mymenu">
+                            <jdoc:include type="modules" name="position-3" style="xhtml" />
+                        </div>
+
+                        <div class="myslider" id="qweqwe">
+                            <jdoc:include type="modules" name="position-14" style="none" />
+                        </div>
+
+                     </div>
+
+                
+                  
+                    
+					<jdoc:include type="message" />
+					<jdoc:include type="component" />
+					<jdoc:include type="modules" name="position-2" style="none" />
+					<!-- End Content -->
+
+				</main>
+				<?php if ($this->countModules('position-7')) : ?>
+					<div id="aside" class="span3">
+						<!-- Begin Right Sidebar -->
+						<jdoc:include type="modules" name="position-7" style="well" />
+						<!-- End Right Sidebar -->
+					</div>
+				<?php endif; ?>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer class="footer" role="contentinfo">
+		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : ''); ?>">
+			<hr />
+			<jdoc:include type="modules" name="footer" style="none" />
+		</div>
+	</footer>
+	<jdoc:include type="modules" name="debug" style="none" />
+<!-- uSocial -->
+		<!--<script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+		<div class="uSocial-Share" data-pid="8d78b5ac0f586e95887665cff6690194" data-type="share" data-options="round-rect,style1,default,right,slide-down,size32,eachCounter1,eachCounter-bottom,counter0" data-social="vk,fb,ok,twi" data-mobile="vi,wa,sms"></div>-->
+		<!-- /uSocial -->
+  <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(36842045, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/36842045" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+  <script>
+  sipuniCalltracking({
+    sources: {
+       'vkontakte':{'utm_source': 'vk'},
+       'vkontakte_mobile':{'utm_source': /vk_mobile/ig}
+    },
+    phones: [
+       {'src':'vkontakte', 'phone':['+79850058045']},
+       {'src':'vkontakte_mobile', 'phone':['+79850058045']}
+    ],
+    pattern:'+# (###) ###-##-##'
+  }, window);
+</script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>Jshopping Cart and Wishlist Ajax</name>
+    <creationDate>14/11/2016</creationDate>
+    <author>Joomla-i.org</author>
+    <authorEmail>support@joomla-i.org</authorEmail>
+    <authorUrl>http://brooksite.ru</authorUrl>
+    <copyright>2017. All rights reserved.</copyright>
+    <license>GNU GPL</license>
+    <version>3.5.6</version>
+    <description>MOD_CART_AJAX_DESCRIPTION</description>
+    <files>
+        <filename module="mod_jshopping_cart_wl_ajax">mod_jshopping_cart_wl_ajax.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+        <folder>css</folder>
+        <folder>font</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+    </files>
+
+    <languages>
+        <language tag="en-GB">en-GB.mod_jshopping_cart_wl_ajax.ini</language>
+        <language tag="ru-RU">ru-RU.mod_jshopping_cart_wl_ajax.ini</language>
+        <language tag="uk-UA">uk-UA.mod_jshopping_cart_wl_ajax.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="type_view" type="radio" class="btn-group" default="1" label="TYPE_VIEW_LABEL" description="TYPE_VIEW_DESCRIPTION">
+                    <option value="1">TYPE_VIEW_VAL_1</option>
+                    <option value="2">TYPE_VIEW_VAL_2</option>
+                </field>
+				<field name="bs_version" type="radio" class="btn-group" default="0" label="BS_VERSION_LABEL" description="BS_VERSION_DESCRIPTION">
+                    <option value="1">2.*.*</option>
+                    <option value="2">3.*.*</option>
+                </field>
+                <field type="spacer" hr="true" />
+                <field name="show_added_to_cart" class="btn-group" type="radio" default="0" label="SHOW_ADDED_TO_CART_LABEL" description="SHOW_ADDED_TO_CART_DESCRIPTION">
+                    <option value="1">SHOW_ADDED_TO_CART_VAL_FIRST</option>
+                    <option value="2">SHOW_ADDED_TO_CART_VAL_SECOND</option>
+					<option value="3">SHOW_ADDED_TO_CART_VAL_THIRD</option>
+                </field>
+				<field name="modal_type" type="radio" class="btn-group" default="2" label="MODAL_TYPE_LABEL" description="MODAL_TYPE_DESCRIPTION">
+                    <option value="1">MODAL_TYPE_VAL_FIRST</option>
+                    <option value="2">MODAL_TYPE_VAL_SECOND</option>
+                </field>
+				<field name="modal_dop" type="radio" class="btn-group" default="0" label="MODAL_DOP_LABEL" description="MODAL_DOP_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="show_added_to_cart_icon" type="radio" class="btn-group" default="0" label="SHOW_ADDED_TO_CART_ICON_LABEL" description="SHOW_ADDED_TO_CART_ICON_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="show_added_to_cart_icon_prod" class="btn-group" type="radio" default="0" label="SHOW_ADDED_TO_CART_ICON_PROD_LABEL" description="SHOW_ADDED_TO_CART_ICON_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+				<field name="show_qttylist" type="radio" class="btn-group" default="0" label="SHOW_QTTY_LIST_LABEL" description="SHOW_QTTY_LIST_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="show_qtty" type="radio" class="btn-group" default="0" label="SHOW_QTTY_LIST_PROD_LABEL" description="SHOW_QTTY_LIST_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+				<field name="iclass_ok" type="text" default="icon-brooksus-ok" label="ICLASS_OK_LABEL" description="ICLASS_OK_DESCRIPTION" />
+				<field name="iclass_cart" type="text" default="icon-brooksus-basket" label="ICLASS_CART_LABEL" description="ICLASS_CART_DESCRIPTION" />
+                <field name="iclass_wl" type="text" default="icon-brooksus-heart" label="ICLASS_WL_LABEL" description="ICLASS_CART_DESCRIPTION" />
+                <field name="show_quantity_buttons" type="radio" class="btn-group" default="0" label="SHOW_QUNTITY_BUTTONS_LABEL" description="SHOW_QUNTITY_BUTTONS_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="show_rabatt" type="radio" class="btn-group" default="0" label="SHOW_RABATT_LABEL" description="SHOW_RABATT_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+				<field name="show_ef" type="radio" class="btn-group" default="0" label="SHOW_EF_LABEL" description="SHOW_EF_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="show_fixed" type="radio" class="btn-group" default="0" label="SHOW_FIXED_LABEL" description="SHOW_FIXED_LABEL">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="show_onclick" type="radio" class="btn-group" default="0" label="SHOW_ONCLICK_LABEL" description="SHOW_ONCLICK_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="highlight_attr" type="radio" class="btn-group" default="2" label="HIGHLIGHT_ATTR_LABEL" description="HIGHLIGHT_ATTR_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="off_ajax" type="radio" class="btn-group" default="1" label="OFF_AJAX_LABEL" description="OFF_AJAX_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="clone_mw" type="radio" class="btn-group" default="0" label="CLONE_MW_LABEL" description="CLONE_MW_DESCRIPTION">
+                    <option value="0">CART_NO</option>
+                    <option value="1">CART_YES</option>
+                </field>
+                <field name="clone_selector" type="text" default=".footer" label="CLONE_SELECTOR_LABEL" description="CLONE_SELECTOR_DESCRIPTION" />
+            </fieldset>
+
+
+            <fieldset name="advanced" label="ADVANCED_LABEL">
+
+                <field name="cart_color" type="radio" class="btn-group" default="1" label="CART_COLOR_LABEL" description="CART_COLOR_DESCRIPTION">
+                    <option value="1">CART_COLOR_1</option>
+                    <option value="2">CART_COLOR_2</option>
+                    <option value="3">CART_COLOR_3</option>
+                    <option value="4">CART_COLOR_4</option>
+                    <option value="5">CART_COLOR_5</option>
+                    <option value="6">CART_COLOR_6</option>
+                </field>
+
+                <field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+
+                <field name="moduleclass_sfx" type="textarea" rows="3" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+                <field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+
+                <field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+
+                <field name="cachemode" type="hidden" default="itemid">
+                    <option value="itemid"></option>
+                </field>
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>

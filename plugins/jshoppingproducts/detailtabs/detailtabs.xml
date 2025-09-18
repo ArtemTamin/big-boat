@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="jshoppingproducts">
+    <name>JoomShopping - DetailTabs</name>
+    <creationDate>21.11.2012</creationDate>
+    <version>1.0.1</version>
+    <author>Joomla-i</author>
+    <authorEmail>support@joomla-i.ru</authorEmail>
+    <authorUrl>http://www.joomla.ru</authorUrl>
+    <copyright></copyright>
+    <license>joomlai</license>
+    <description>Tabs in product details</description>     
+    <files>
+		<folder>language</folder>
+		<filename plugin="detailtabs">detailtabs.php</filename>
+        <filename>style.css</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>

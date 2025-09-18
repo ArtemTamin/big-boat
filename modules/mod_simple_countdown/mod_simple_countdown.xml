@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.6" client="site" method="upgrade">
+	<name>Simple Countdown</name>
+	<author>Standard Company</author>
+	<creationDate>10/03/2015</creationDate>
+	<copyright>Copyright (C) 2015 standardcompany.ru. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>info@standardcompany.ru</authorEmail>
+	<authorUrl>http://standardcompany.ru</authorUrl>
+	<version>1.0</version>
+	<description>Simple Countdown - Copyright (C) 2015 standardcompany.ru. All Rights Reserved.</description>
+
+	
+	<files>	
+		<filename module="mod_simple_countdown">mod_simple_countdown.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_simple_countdown.php</filename>
+		<filename>mod_simple_countdown.xml</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>   
+    </files>
+
+    <languages>
+		<language tag="ru-RU">ru-RU.mod_simple_countdown.ini</language>
+		<language tag="ru-RU">ru-RU.mod_simple_countdown.sys.ini</language>
+		<language tag="en-GB">en-GB.mod_simple_countdown.ini</language>
+		<language tag="en-GB">en-GB.mod_simple_countdown.sys.ini</language>
+	</languages>
+
+<config>
+		<fields name="params">
+
+			<fieldset name="advanced">
+
+    			<field name="moduleclass_sfx" type="text" label="SIMPLE_COUNTDOWN_CSS" description="SIMPLE_COUNTDOWN_CSS_DESC"/>
+    		</fieldset>
+
+
+    		<fieldset name="basic">
+				
+
+				<field name="date_countdown" type="calendar" default="" label="SIMPLE_COUNTDOWN_DATE" format="%Y-%m-%d" />
+				<field name="set_time" type="text" default="00:00:00" label="SIMPLE_COUNTDOWN_TIME" size="10" />
+
+				<field name="text_before" type="text" default="" label="SIMPLE_COUNTDOWN_TEXT" size="10" />
+
+				
+				<field name="use_run_out_time" type="radio" default="false" class="btn-group" label="SIMPLE_COUNTDOWN_RUN_OUT">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="run_out_time" type="text" translate_default="true" default="SIMPLE_COUNTDOWN_OVER" label="SIMPLE_COUNTDOWN_NOTICE" size="10" />
+
+
+				<field name="note_1" type="note" class="alert alert-info" label="SIMPLE_COUNTDOWN_USE" />
+				
+				<field name="use_days" type="radio" default="true" class="btn-group" label="SIMPLE_COUNTDOWN_S_DAYS">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="use_hours" type="radio" default="true" class="btn-group" label="SIMPLE_COUNTDOWN_S_HOURS">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="use_minutes" type="radio" default="true" class="btn-group" label="SIMPLE_COUNTDOWN_S_MINUTES">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="use_seconds" type="radio" default="true" class="btn-group" label="SIMPLE_COUNTDOWN_S_SECONDS">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+
+				<field name="note_2" type="note" class="alert alert-info" label="SIMPLE_COUNTDOWN_STYLE_S" />
+
+				<field name="use_circle" type="radio" default="true" class="btn-group" label="SIMPLE_COUNTDOWN_STYLE_SC">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="type_animation" type="list" default="smooth" label="SIMPLE_COUNTDOWN_STYLE_TA">
+				  <option value="smooth">Smooth</option>
+				  <option value="ticks">Ticks</option>
+				</field>
+
+				<field name="thickness_of_bg" type="text" default="0.2" label="SIMPLE_COUNTDOWN_STYLE_TOB" size="10" />
+				<field name="thickness_of_cr" type="text" default="0.02" label="SIMPLE_COUNTDOWN_STYLE_TOC" size="10" />
+				
+				<field name="circle_bg_color" type="color" default="#EEEEEE" label="SIMPLE_COUNTDOWN_STYLE_CC" />
+
+				<field name="days_bg_color" type="color" default="#FFCC66" label="SIMPLE_COUNTDOWN_STYLE_DC" />
+				<field name="hours_bg_color" type="color" default="#99CCFF" label="SIMPLE_COUNTDOWN_STYLE_HC" />
+				<field name="minutes_bg_color" type="color" default="#65f0aa" label="SIMPLE_COUNTDOWN_STYLE_MC" />
+				<field name="seconds_bg_color" type="color" default="#FF9999" label="SIMPLE_COUNTDOWN_STYLE_SC" />
+
+				<field name="text_color" type="color" default="" label="SIMPLE_COUNTDOWN_STYLE_TC" />
+
+				<field name="note_3" type="note" class="alert alert-info" label="SIMPLE_COUNTDOWN_NAMES" />
+
+				<field name="time_days" translate_default="true" type="text" default="SIMPLE_COUNTDOWN_TEXT_D_D" label="SIMPLE_COUNTDOWN_TEXT_D" size="10" />
+				<field name="time_hours" translate_default="true" type="text" default="SIMPLE_COUNTDOWN_TEXT_H_D" label="SIMPLE_COUNTDOWN_TEXT_H" size="10" />
+				<field name="time_minutes" translate_default="true" type="text" default="SIMPLE_COUNTDOWN_TEXT_M_D" label="SIMPLE_COUNTDOWN_TEXT_M" size="10" />
+				<field name="time_seconds" translate_default="true" type="text" default="SIMPLE_COUNTDOWN_TEXT_S_D" label="SIMPLE_COUNTDOWN_TEXT_S" size="10" />
+
+
+	    	</fieldset>
+
+
+		</fields>
+	</config>
+
+</extension>

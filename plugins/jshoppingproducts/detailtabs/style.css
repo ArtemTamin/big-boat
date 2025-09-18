@@ -1,0 +1,19 @@
+.detailtabs #list_product_image_middle a:hover{background: none;color: #000;}
+.detailtabs .current{border:none;}
+.detailtabs .button_back{text-align:right;}
+.detailtabs .jshop_img_description,.detailtabs.productfull .prod_buttons .buttons{padding:0;}
+.detailtabs .jshop_img_thumb{margin:5px 5px 0 0;display: inline-block;vertical-align: middle;}
+.detailtabs.productfull .image_middle{width:50%;}
+.detailtabs #detailtabs{border-bottom:2px solid #329A1C;width:100%;font-size:12px;}
+.detailtabs #detailtabs dt{padding:0;border:none;margin:0 -1px 0 0;}
+.detailtabs #detailtabs .tabs{height:24px;text-decoration:none;background-color:#fff;border:1px solid #ccc;border-bottom:0;}
+.detailtabs #detailtabs .tabs a{display:block;height:22px;line-height:22px;text-decoration:none;border:2px solid #fff;border-bottom:none;padding:0 10px;}
+.detailtabs #detailtabs .tabs,.detailtabs #detailtabs .tabs a{border-top-left-radius:10px;border-top-right-radius:10px;}
+.detailtabs #detailtabs .tabs.closed a:hover{background-color:#D6EBD2;}
+.detailtabs #detailtabs .tabs.closed a,.detailtabs #detailtabs .tabs.closed a:hover{color:#114989;}
+.detailtabs #detailtabs .tabs.open{border-color:#329A1C;background-color:#329A1C;}
+.detailtabs #detailtabs .tabs.open a{color:#fff;border-color:#329A1C;}
+.detailtabs #detailtabs .tabs.open a:hover,.detailtabs #detailtabs .tabs.open a:focus,.detailtabs #detailtabs .tabs.open a:active{background: none;}
+.detailtabs dl.tabs dt { float: left;}
+.detailtabs dl.tabs {clear: both;float: left;margin: 50px 0 0;}
+.detailtabs dl.tabs h3 {margin: 0;}

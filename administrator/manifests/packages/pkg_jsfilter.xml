@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="2.5" method="upgrade">
+	<name>Joomshopping - Extended Filter</name>
+	<packagename>jsefilter</packagename>
+	<author>info@joom-shopping.com</author>
+	<license>GNU GPL</license>
+	<copyright>All rights reserved.</copyright>
+	<creationDate>March 2018</creationDate>
+	<version>1.4.3</version>
+	<url>https://joom-shopping.com</url>
+	<packager>https://joom-shopping.com</packager>
+	<packagerurl>https://joom-shopping.com</packagerurl>
+	<description>Joomshopping Extended Filter package</description>
+	<files>
+		<file type="module" client="site" id="mod_jshopping_extended_filter">mod_jshopping_extended_filter</file>
+		
+		<file type="plugin" group="jsfilter" id="jsfilter">plg_jsfilter</file>
+	</files>
+</extension>

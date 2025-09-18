@@ -1,0 +1,8 @@
+#checkoutajax{padding:5px;}
+#checkoutajax .checkoutajax-title{margin-bottom:5px;padding:2px 5px;display:block;font-weight:bold;line-height:16px;text-decoration:none;height:16px;border:1px solid #000;}
+#checkoutajax .checkoutajax-title,#checkoutajax .checkoutajax-title a{color:#000;}
+#checkoutajax .checkoutajax-title a{text-decoration:none;display:inline-block;width:16px;height:16px;vertical-align:top;}
+#checkoutajax .checkoutajax-title span{vertical-align:top;}
+#checkoutajax .checkoutajax-content{padding:5px;}
+#checkoutajax .checkoutajax-disabled{color:#aaa;}
+#checkoutajax .overlay{width:100%;background:url('../../../components/com_jshopping/images/loading.gif') no-repeat center center #fff;position:absolute;left:0;top:0;height:100%;z-index:65533;opacity:0.8;filter:alpha(opacity=80);}

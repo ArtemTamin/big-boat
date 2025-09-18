@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="1.0" type="plugin" method="upgrade" group="jshoppingproducts">
+    <name>JoomShopping - Show attributes at list products</name>
+    <author>Joomlok</author>
+    <creationDate>15.04.2018</creationDate>
+    <copyright>Copyright. All rights reserved.</copyright>
+    <license>Gnu Gpl</license>
+    <authorEmail>support@joomlok.ru</authorEmail>
+    <authorUrl>http://joomlok.com/</authorUrl>
+    <version>4.0.8</version>
+    <description>Joomshopping. Show attributes at list products.</description>
+    <files>
+        <filename plugin="attr_for_list_product">attr_for_list_product.php</filename>
+        <filename>index.html</filename>
+        <filename>attrliststyle.css</filename>
+        <filename>attrliststyle.min.css</filename>
+        <filename>attr_for_list.js</filename>
+        <filename>attr_for_list.min.js</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field	name="categ_exclude_attr"	type="text"	default=""	label="Не выводиь в указанных категориях"	description="Перечислите ID категорий через запятую" required="false" filter="string"	size="40" />
+                <field	name="prod_exclude_attr"	type="text"	default=""	label="Не выводиь в указанных товарах"	description="Перечислите ID товаров через запятую" required="false" filter="string"	size="40" />
+				<field	name="ident_attr_list"	type="text"	default="_tmp_var_top_buttons"	label="Идентификатор для вывода"	description="Идентификатор для вывода (для шаблона responsive brooksite используйте - _tmp_var_attr_buttons)"	required="true" filter="string"	size="40" />
+				<field	name="wrapclass" type="text"	default="*[class*='productitem_']:visible, *[class*='moditem_']:visible, .owl-item, .modopprod_item"	label="Класс родительского блока"	description="Классы родительского блока, в которм расположены атрибуты"	required="true" filter="string"	size="40" />
+                <field name="first_empty" type="radio" class="btn-group" default="1" label="Оставить первое значение атрибута пустым" description="Оставить первое значение атрибута пустым">
+                    <option value="1">Нет</option>
+                    <option value="2">Да</option>
+                </field>
+				<field name="event_buttonbuy" type="radio" class="btn-group" default="1" label="Игнорировать/Скрыть/Отлючить кнопку купить" description="Скрыть или отключить кнопку купить, если в наличии нет выбранной опции">
+					<option value="1">Игнорировать</option>
+                    <option value="2">Скрыть</option>
+                    <option value="3">Отключить</option>
+                </field>
+				<field name="autohide_empty" type="radio" class="btn-group" default="1" label="Скрыть сообщение автомаически" description="Автоматически скрывть сообщение об отсутствии выбранной опции">
+                    <option value="1">Нет</option>
+                    <option value="2">Да</option>
+                </field>
+				<field name="calc_price" type="radio" class="btn-group" default="1" label="Пересчитывать сумму при изменении количества" description="Пересчитывать сумму в товаре при изменении количества (экспериментальная функция)">
+                    <option value="1">Нет</option>
+                    <option value="2">Да</option>
+                </field>
+                <field name="recalc_onload" type="radio" class="btn-group" default="1" label="Обновлять товары при загрузке страницы!" description="Обновляет сумму, количество и изображение товара в соответствии с указанным атрибутом при загрузке страницы. Создаёт нагрузку на сайт!!!">
+                    <option value="1">Нет</option>
+                    <option value="2">Да</option>
+                </field>
+				<field name="include_css" type="radio" class="btn-group" default="1" label="Подключить CSS" description="Подключить CSS">
+                    <option value="0">Нет</option>
+                    <option value="1">Да</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

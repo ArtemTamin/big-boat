@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.6"
+	client="site"
+	method="upgrade">
+	<name>Super Simple Contact Form</name>
+	<author>Standard Company</author>
+	<creationDate>10/02/2015</creationDate>
+	<copyright>Copyright (C) 2015 standardcompany.ru. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>info@standardcompany.ru</authorEmail>
+	<authoralt>http://standardcompany.ru</authoralt>
+	<version>1.5</version>
+	<description>Super Simple Contact Form - Copyright (C) 2015 standardcompany.ru. All Rights Reserved.</description>
+
+	<updateservers>
+		<server type="extension" priority="1" name="Super Simple Contact Form">
+			http://standardcompany.ru/dwn/user-update-contact-form.xml
+		</server>
+	</updateservers>
+
+	
+	<files>	
+		<filename module="mod_super_simple_contact_form">mod_super_simple_contact_form.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_super_simple_contact_form.php</filename>
+		<filename>mod_super_simple_contact_form.xml</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>   
+    </files>
+
+    <languages>
+		<language tag="ru-RU">ru-RU.mod_super_simple_contact_form.ini</language>
+		<language tag="ru-RU">ru-RU.mod_super_simple_contact_form.sys.ini</language>
+		<language tag="en-GB">en-GB.mod_super_simple_contact_form.ini</language>
+		<language tag="en-GB">en-GB.mod_super_simple_contact_form.sys.ini</language>
+	</languages>
+
+<config>
+		<fields name="params">
+
+			<fieldset name="advanced">
+    			<field name="moduleclass_sfx" type="text" label="SUPER_SIMPLE_FEEDBACK_CSS" description="SUPER_SIMPLE_FEEDBACK_CSS_DESC"/>
+    		</fieldset>
+
+
+    		<fieldset name="basic">
+			
+			<field name="myemail" type="email"
+				label="JGLOBAL_EMAIL"
+				description="COM_ADMIN_USER_FIELD_EMAIL_DESC"
+				required="true"
+				size="30"
+				class="inputbox"
+				validate="email" />
+
+			<field name="pop_up" type="radio" default="false" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_POP_UP">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+			</field>
+
+			<field name="button_name" type="text" translate_default="true" default="Contact Form" label="SUPER_SIMPLE_FEEDBACK_NAME_BUTTON" size="10" />
+
+			<field name="text_before" type="textarea" default="" label="SUPER_SIMPLE_FEEDBACK_TEXT_BEFORE" rows="10" cols="5" filter="raw"/>
+			<field name="text_after" type="textarea" default="" label="SUPER_SIMPLE_FEEDBACK_TEXT_AFTER" rows="10" cols="5" filter="raw"/>
+
+
+				<field name="note_1" type="note" class="alert alert-info" label="SUPER_SIMPLE_FEEDBACK_NAMES_FIELDS" />
+
+				<field name="input_name" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_INPUT_NAME" label="SUPER_SIMPLE_FEEDBACK_INPUT_NAME_LABEL" size="10" />
+				<field name="input_phone" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_INPUT_PHONE" label="SUPER_SIMPLE_FEEDBACK_INPUT_PHONE_LABEL" size="10" />
+				<field name="input_email" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_INPUT_EMAIL" label="SUPER_SIMPLE_FEEDBACK_INPUT_EMAIL_LABEL" size="10" />
+				<field name="input_custom_one" type="text" default="" label="SUPER_SIMPLE_FEEDBACK_INPUT_CUSTOM_ONE_LABEL" size="10" />
+				<field name="input_custom_two" type="text" default="" label="SUPER_SIMPLE_FEEDBACK_INPUT_CUSTOM_TWO_LABEL" size="10" />
+				<field name="input_message" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_INPUT_MESSAGE" label="SUPER_SIMPLE_FEEDBACK_INPUT_MESSAGE_LABEL" size="10" />
+
+				<field name="success_message_h" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_SUCCESS_HEAD" label="SUPER_SIMPLE_FEEDBACK_SUCCESS_HEAD_LABEL" size="10" />
+				<field name="success_message_p" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_SUCCESS_FOOTER" label="SUPER_SIMPLE_FEEDBACK_SUCCESS_FOOTER_LABEL" size="10" />
+
+				<field name="message_theme" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_SUCCESS_THEME" label="SUPER_SIMPLE_FEEDBACK_SUCCESS_THEME_LABEL" size="10" />
+
+				<field name="message_button" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_BUTTON" label="SUPER_SIMPLE_FEEDBACK_BUTTON_LABEL" size="10" />
+
+				<field name="message_button_sending" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_BUTTON_SEND" label="SUPER_SIMPLE_FEEDBACK_BUTTON_SEND_LABEL" size="10" />
+
+
+
+				<field name="note_5" type="note" class="alert alert-info" label="SUPER_SIMPLE_FEEDBACK_ACTIVE_FIELDS" />
+
+				<field name="use_name" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_ACTIVE_USE_NAME">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="use_phone" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_ACTIVE_USE_PHONE">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="use_email" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_ACTIVE_USE_EMAIL">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="use_message" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_ACTIVE_USE_MESSAGE">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+
+
+
+
+				<field name="note_2" type="note" class="alert alert-info" label="SUPER_SIMPLE_FEEDBACK_VALID_FIELDS" />
+
+				<field name="valid_message_name" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_VALID_NAME">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="valid_message_phone" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_VALID_PHONE">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="valid_message_email_req" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_VALID_EMAIL">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="valid_message_message" type="radio" default="true" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_VALID_MESSAGE">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="valid_input_custom_one" type="radio" default="false" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_VALID_CUSTOM_ONE">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="valid_input_custom_two" type="radio" default="false" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_VALID_CUSTOM_TWO">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				
+
+				
+				<field name="note_4" type="note" class="alert alert-info" label="SUPER_SIMPLE_FEEDBACK_MESSAGES_ERRORS" />
+
+				<field name="error_message_name" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_MESSAGES_ERRORS_NAME" label="SUPER_SIMPLE_FEEDBACK_INPUT_NAME" size="10" />
+				<field name="error_message_phone" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_MESSAGES_ERRORS_PHONE" label="SUPER_SIMPLE_FEEDBACK_INPUT_PHONE" size="10" />
+				<field name="error_message_email" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_MESSAGES_ERRORS_EMAIL" label="SUPER_SIMPLE_FEEDBACK_INPUT_EMAIL" size="10" />
+				<field name="error_valid_message_email" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_VALID_ERRORS_EMAIL" label="SUPER_SIMPLE_FEEDBACK_VALID_ERRORS_EMAIL_LABEL" size="10" />
+				<field name="error_message_message" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_MESSAGES_ERRORS_MESSAGE" label="SUPER_SIMPLE_FEEDBACK_INPUT_MESSAGE" size="10" />
+				<field name="error_message_input_custom_one" type="text" default="" label="SUPER_SIMPLE_FEEDBACK_INPUT_ERROR_CUSTOM_ONE" size="10" />
+				<field name="error_message_input_custom_two" type="text" default="" label="SUPER_SIMPLE_FEEDBACK_INPUT_ERROR_CUSTOM_TWO" size="10" />
+
+
+				<field name="note_6" type="note" class="alert alert-info" label="SUPER_SIMPLE_FEEDBACK_ADD_INF" />
+
+                <field name="additional_information" type="radio" default="true" class="btn-group" description="SUPER_SIMPLE_FEEDBACK_ADD_INF_DESC" label="SUPER_SIMPLE_FEEDBACK_ADD_INF">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+	    	</fieldset>
+
+	    	<fieldset name="reCAPTCHA" label="reCAPTCHA">
+	    		<field name="captcha" type="radio" default="false" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_CAPTCHA">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="public_captcha_key" type="text" translate_default="true" default="" label="SUPER_SIMPLE_FEEDBACK_CAPTCHA_PUB_K" size="10" />
+				<field name="private_captcha_key" type="text" translate_default="true" default="" label="SUPER_SIMPLE_FEEDBACK_PRI_K" size="10" />
+
+				<field name="error_message_captcha" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_INPUT_ERROR_CAPTCHA" label="SUPER_SIMPLE_FEEDBACK_INPUT_ERROR_CAPTCHA_LABEL" size="10" />
+
+				<field name="error_message_captcha_try" type="text" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_TRY_ERROR_CAPTCHA" label="SUPER_SIMPLE_FEEDBACK_TRY_ERROR_CAPTCHA_LABEL" size="10" />
+			</fieldset>
+
+			<fieldset name="reply" label="SUPER_SIMPLE_FEEDBACK_REPLY">
+				<field name="reply" type="radio" default="false" class="btn-group" label="SUPER_SIMPLE_FEEDBACK_USE_REPLY">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+				
+				<field name="subjectreply" type="text" default="" label="SUPER_SIMPLE_FEEDBACK_SUBJECT_REPLY" size="10" />
+				<field name="textreply" type="editor" filter="raw" translate_default="true" default="SUPER_SIMPLE_FEEDBACK_TEXT_REPLY_DEF" label="SUPER_SIMPLE_FEEDBACK_TEXT_REPLY_LABEL" />
+			</fieldset>
+
+			<fieldset name="style" label="SUPER_SIMPLE_STYLE">
+				<field name="backgroundcolorbutton" type="color" default="#3dd585" label="SUPER_SIMPLE_STYLE_BACKGROUND_BUTTON_SEND"/>
+				<field name="backgroundcolorbuttonhover" type="color" default="#43eb93" label="SUPER_SIMPLE_STYLE_BACKGROUND_BUTTON_SEND_HOVER"/>
+
+
+				<field name="backgroundcolorbuttonmodal" type="color" default="#3dd585" label="SUPER_SIMPLE_STYLE_BACKGROUND_BUTTON_MODAL"/>
+
+				<field name="backgroundcolorbuttonmodalhover" type="color" default="#43eb93" label="SUPER_SIMPLE_STYLE_BACKGROUND_BUTTON_MODAL_HOVER"/>
+
+
+				<field name="roundedcorners" type="radio" default="true" class="btn-group" label="SSUPER_SIMPLE_STYLE_BACKGROUND_BUTTON_ROUNDED_CORNERS">
+				  	<option value="false">JNO</option>
+					<option value="true">JYES</option>
+				</field>
+
+				<field name="textcolorsuccess" type="color" default="#08A300" label="SUPER_SIMPLE_STYLE_TEXT_SUCCESS"/>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
+

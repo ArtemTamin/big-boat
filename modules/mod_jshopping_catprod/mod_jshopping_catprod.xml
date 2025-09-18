@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" method="upgrade" client="site">
+	<name>MOD_JSHOPPING_CATPROD</name>
+	<creationDate>Декабрь 2021</creationDate>
+	<author>А.П.В.</author>
+	<authorEmail>info@blog-about.ru</authorEmail>
+	<copyright>Copyright(C) 2016 Module JShopping CatProd</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>0.1.0</version>
+	<description>MOD_JSHOPPING_CATPROD_XML_DESCRIPTION</description>
+	
+	<files>
+		<filename module="mod_jshopping_catprod">mod_jshopping_catprod.php</filename>
+		<filename>mod_jshopping_catprod.xml</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>assets</folder>
+		<folder>fields</folder>
+		<folder>images</folder>
+		<folder>tmpl</folder>
+	</files>
+	  
+    <config>
+		<fields name="params">
+			<!-- Основные параметры для модуля -->
+			<fieldset name="basic" addfieldpath="/modules/mod_jshopping_catprod/fields">
+				<field name="type_category" type="list" default="default_category" label="MOD_JSHOPPING_CATPROD_TYPE_CATEGORY" description="MOD_JSHOPPING_CATPROD_TYPE_CATEGORY_DESC">
+					<option value="all">MOD_JSHOPPING_CATPROD_TYPE_CATEGORY_ALL</option>
+					<option value="root">MOD_JSHOPPING_CATPROD_TYPE_CATEGORY_ROOT</option>
+					<option value="current">MOD_JSHOPPING_CATPROD_TYPE_CATEGORY_CURRENT</option>
+				</field>
+				<field name="note1" type="note" class="alert alert-info" label="MOD_JSHOPPING_CATPROD_TYPE_CATEGORY" description="MOD_JSHOPPING_CATPROD_TYPE_CATEGORY_NOTE" />
+				
+				<field name="root_category" type="jshoppingcategories" default="" label="MOD_JSHOPPING_CATPROD_ROOT_CATEGORY" description="MOD_JSHOPPING_CATPROD_ROOT_CATEGORY_DESC" />
+				<field name="note2" type="note" class="alert alert-info" label="MOD_JSHOPPING_CATPROD_ROOT_CATEGORY" description="MOD_JSHOPPING_CATPROD_ROOT_CATEGORY_NOTE" />
+				
+				<field name="exclude_category" type="jshoppingcategories" multiple="multiple" default="" label="MOD_JSHOPPING_CATPROD_EXCLUDE_CATEGORY" description="MOD_JSHOPPING_CATPROD_EXCLUDE_CATEGORY_DESC" />
+				<field name="note3" type="note" class="alert alert-info" label="MOD_JSHOPPING_CATPROD_EXCLUDE_CATEGORY" description="MOD_JSHOPPING_CATPROD_EXCLUDE_CATEGORY_NOTE" />
+				
+				<field name="accordion" type="radio" default="0" label="MOD_JSHOPPING_CATPROD_ACCORDION" description="MOD_JSHOPPING_CATPROD_ACCORDION_DESC">
+					<option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+				<field name="add_css" type="radio" default="1" label="MOD_JSHOPPING_CATPROD_ADD_CSS" description="MOD_JSHOPPING_CATPROD_ADD_CSS_DESC">
+					<option value="0">JOFF</option>
+                    <option value="1">JON</option>
+                </field>
+				
+				<field name="enable_addon" type="radio" default="0" label="MOD_JSHOPPING_CATPROD_ENABLE_ADDON" description="MOD_JSHOPPING_CATPROD_ENABLE_ADDON_DESC">
+                    <option value="0">JOFF</option>
+                    <option value="1">JON</option>
+                </field>
+            </fieldset>
+			
+			<fieldset name="MOD_JSHOPPING_CATPROD_CATEGORY">
+				<field name="field_sort" type="list" label="MOD_JSHOPPING_CATPROD_CATEGORY_SORT_BY" description="MOD_JSHOPPING_CATPROD_CATEGORY_SORT_BY_DESC" default="1">
+					<option value="category_id">MOD_JSHOPPING_CATPROD_CATEGORY_SORT_BY_ID</option>
+					<option value="name">MOD_JSHOPPING_CATPROD_CATEGORY_SORT_BY_NAME</option>
+					<option value="category_add_date">MOD_JSHOPPING_CATPROD_CATEGORY_SORT_BY_DATE</option>
+					<option value="ordering">MOD_JSHOPPING_CATPROD_CATEGORY_SORT_BY_ORDERING</option>
+				</field>
+				<field name="sort_ordering" type="list" label="MOD_JSHOPPING_CATPROD_CATEGORY_SORT_ORDERING" description="MOD_JSHOPPING_CATPROD_CATEGORY_SORT_ORDERING_DESC" default="ASC">
+					<option value="ASC">MOD_JSHOPPING_CATPROD_CATEGORY_ASC</option>
+					<option value="DESC">MOD_JSHOPPING_CATPROD_CATEGORY_DES</option>
+				</field>
+				<field name="category_show_image" type="list" label="MOD_JSHOPPING_CATPROD_CATEGORY_SHOW_IMAGE" description="MOD_JSHOPPING_CATPROD_CATEGORY_SHOW_IMAGE_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="category_show_short_desc" type="list" label="MOD_JSHOPPING_CATPROD_CATEGORY_SHOW_SHORT_DESC" description="MOD_JSHOPPING_CATPROD_CATEGORY_SHOW_SHORT_DESC_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="category_show_desc" type="list" label="MOD_JSHOPPING_CATPROD_CATEGORY_SHOW_DESC" description="MOD_JSHOPPING_CATPROD_CATEGORY_SHOW_DESC_DESC" default="0">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="category_class_sfx" type="text" label="MOD_JSHOPPING_CATPROD_CATEGORY_CLASS_SFX" description="MOD_JSHOPPING_CATPROD_CATEGORY_CLASS_SFX_DESC" />
+			</fieldset>
+			<fieldset name="MOD_JSHOPPING_CATPROD_SUBCATEGORY">
+				<field name="subcategory_show" type="list" label="MOD_JSHOPPING_CATPROD_SUBCATEGORY_SHOW" description="MOD_JSHOPPING_CATPROD_SUBCATEGORY_SHOW_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="subcategory_show_image" type="list" label="MOD_JSHOPPING_CATPROD_SUBCATEGORY_SHOW_IMAGE" description="MOD_JSHOPPING_CATPROD_SUBCATEGORY_SHOW_IMAGE_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="subcategory_show_short_desc" type="list" label="MOD_JSHOPPING_SUBCATPROD_CATEGORY_SHOW_SHORT_DESC" description="MOD_JSHOPPING_SUBCATPROD_CATEGORY_SHOW_SHORT_DESC_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="subcategory_show_desc" type="list" label="MOD_JSHOPPING_CATPROD_SUBCATEGORY_SHOW_DESC" description="MOD_JSHOPPING_CATPROD_SUBCATEGORY_SHOW_DESC_DESC" default="0">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="subcategory_class_sfx" type="text" label="MOD_JSHOPPING_CATPROD_SUBCATEGORY_CLASS_SFX" description="MOD_JSHOPPING_CATPROD_SUBCATEGORY_CLASS_SFX_DESC" />
+			</fieldset>
+			<fieldset name="MOD_JSHOPPING_CATPROD_PRODUCT">
+				<field name="product_show" type="list" label="MOD_JSHOPPING_CATPROD_PRODUCT_SHOW" description="MOD_JSHOPPING_CATPROD_PRODUCT_SHOW_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="field_sort_products" type="list" label="MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY" description="MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_DESC" default="1">
+					<option value="product_id">MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_ID</option>
+					<option value="name">MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_NAME</option>
+					<option value="product_date_added">MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_DATE</option>
+					<option value="product_price">MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_PRICE</option>
+					<option value="average_rating">MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_AVERAGE_RATING</option>
+					<option value="reviews_count">MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_REVIEWS_COUNT</option>
+					<option value="hits">MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_BY_HITS</option>
+				</field>
+				<field name="sort_ordering_products" type="list" label="MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_ORDERING" description="MOD_JSHOPPING_CATPROD_PRODUCTS_SORT_ORDERING_DESC" default="ASC">
+					<option value="ASC">MOD_JSHOPPING_CATPROD_PRODUCTS_ASC</option>
+					<option value="DESC">MOD_JSHOPPING_CATPROD_PRODUCTS_DES</option>
+				</field>
+				
+				<field name="root_product_show" type="list" label="MOD_JSHOPPING_CATPROD_ROOT_PRODUCT_SHOW" description="MOD_JSHOPPING_CATPROD_ROOT_PRODUCT_SHOW_DESC" default="0">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="note4" type="note" class="alert alert-info" label="MOD_JSHOPPING_CATPROD_ROOT_PRODUCT_SHOW" description="MOD_JSHOPPING_CATPROD_ROOT_PRODUCT_SHOW_NOTE" />
+				
+				<field name="product_show_image" type="list" label="MOD_JSHOPPING_CATPROD_PRODUCT_SHOW_IMAGE" description="MOD_JSHOPPING_CATPROD_PRODUCT_SHOW_IMAGE_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="product_show_ean" type="list" label="MOD_JSHOPPING_CATPROD_PRODUCT_SHOW_EAN" description="MOD_JSHOPPING_CATPROD_PRODUCT_SHOW_EAN_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="product_show_short_desc" type="list" label="MOD_JSHOPPING_SUBCATPROD_PRODUCT_SHOW_SHORT_DESC" description="MOD_JSHOPPING_SUBCATPROD_PRODUCT_SHOW_SHORT_DESC_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="product_show_button_buy" type="list" label="MOD_JSHOPPING_SUBCATPROD_PRODUCT_SHOW_BUTTON_BUY" description="MOD_JSHOPPING_SUBCATPROD_PRODUCT_SHOW_BUTTON_BUY_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="product_show_button_readmore" type="list" label="MOD_JSHOPPING_SUBCATPROD_PRODUCT_SHOW_BUTTON_READMORE" description="MOD_JSHOPPING_SUBCATPROD_PRODUCT_SHOW_BUTTON_READMORE_DESC" default="1">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+				<field name="count_products" type="text" label="MOD_JSHOPPING_CATPROD_COUNT_PRODUCTS" description="MOD_JSHOPPING_CATPROD_COUNT_PRODUCTS_DESC" default="0" />
+				<field name="products_class_sfx" type="text" label="MOD_JSHOPPING_CATPROD_PRODUCTS_CLASS_SFX" description="MOD_JSHOPPING_CATPROD_PRODUCTS_CLASS_SFX_DESC" />
+        	</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+			</fieldset>
+        </fields>
+    </config>
+	
+	<languages folder="language">
+		<language tag="ru-RU">ru-RU/ru-RU.mod_jshopping_catprod.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.mod_jshopping_catprod.sys.ini</language>
+	</languages>
+	
+	<updateservers>
+		<server type="extension" priority="1" name="Module JShopping CatProd">http://blog-about.ru/update/mod_jshopping_catprod_update.xml</server>
+	</updateservers>
+</extension>

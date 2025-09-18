@@ -1,0 +1,44 @@
+#search-result{
+    background-color: #f0f0f0;    
+    color: #555555;
+    position: absolute;
+    z-index:113;
+}
+table.ajaxsearch{
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+table.ajaxsearch td, table.ajaxsearch tr{
+    border:0px;    
+}
+.itemsearch .itemlink {
+	padding: 5px;
+	display: block;
+}
+.itemsearch img{
+    border:0px;
+}
+.itemsearch a:hover{
+    background: none;
+    color: #333333;
+}
+.itemsearch:hover{
+    background-color: #f0f0f0;
+    color: white;
+}
+.itemsearch:hover span{
+	color: #333333;
+}
+.img-block{
+    display: block;
+}
+.detailsearch{    
+	display: block;	
+	margin: 0 10px 0 10px;
+}
+.ajax-search-more-results{
+    
+}
+.jshop_ajaxsearch input, .jshop_ajaxsearch select{
+	max-width:100%;
+}

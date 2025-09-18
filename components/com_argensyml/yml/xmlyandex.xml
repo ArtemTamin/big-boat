@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE yml_catalog SYSTEM "http://partner.market.yandex.ru/pages/help/shops.dtd">
+<yml_catalog date="2020-02-13 05:40">
+    <shop>
+        <name>Big-boat</name>
+        <company>ООО "Биг Боут Лимитед"</company>
+        <url>http://big-boat.ru/</url>
+        <platform>Joomla!, Joomline Yandex.Market XML</platform>
+        <version>3.6.4</version>
+        <currencies>
+            <currency id="RUB" rate="1" plus="0"/>
+        </currencies>
+                    <categories>
+                                    <category id="1">Лодки ПВХ от производителя</category>
+                                    <category id="16">Транцевые лодки ПВХ</category>
+                                    <category id="17">Гребные лодки ПВХ</category>
+                                    <category id="18">Килевые лодки ПВХ</category>
+                                    <category id="20">Лодки ПВХ c надувным дном низкого давления</category>
+                                    <category id="5">Алюминиевые лодки</category>
+                                    <category id="6">Пластиковые лодки</category>
+                                    <category id="2">Алюминиевые катера</category>
+                                    <category id="7">Пластиковые катера</category>
+                                    <category id="13">Комбинированные катера</category>
+                                    <category id="8">2-тактные лодочные моторы Yamaha</category>
+                                    <category id="14">4-тактные лодочные моторы Yamaha</category>
+                                    <category id="12">Прицепы для лодок и катеров</category>
+                                    <category id="3">Оборудование для ПВХ лодок</category>
+                                    <category id="10">Наборы для ремонта ПВХ изделий</category>
+                                    <category id="11">Оборудование для лодок и катеров</category>
+                                    <category id="15">Катера Неман</category>
+                                    <category id="19">Новости</category>
+                            </categories>
+                                    <delivery-options>
+                <option cost="0" days="0"/>
+            </delivery-options>
+                <offers>
+            <offer id="7" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-1</url><price>221000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-1</vendorCode><model>Алюминиевый катер WB-490C</model><description>Длина 504 см
+Ширина 169 см
+Высота борта 80 см
+Вес 215 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-490C_00.jpg</picture></offer>
+            <offer id="8" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-2</url><price>211000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-2</vendorCode><model>Алюминиевый катер WB-460C</model><description>Длина 430 см
+Ширина 170 см
+Высота борта 72 см
+Вес 200 кг
+Грузоподъемность 420 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Big-Boat_460C_0.jpg</picture></offer>
+            <offer id="9" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-3</url><price>165000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-3</vendorCode><model>Алюминиевый катер WB-430C</model><description>Длина 430 см
+Ширина 160 см
+Высота борта 70 см
+Вес 155 кг
+Грузоподъемность 350 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Big-Boat_430C_0.jpg</picture></offer>
+            <offer id="10" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-4</url><price>237000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-4</vendorCode><model>Алюминиевый катер WB-490DC</model><description>Длина 504 см
+Ширина 169 см
+Высота борта 80 см
+Вес 230 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_623.jpg</picture></offer>
+            <offer id="11" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-5</url><price>226000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-5</vendorCode><model>Алюминиевый катер WB-460DC</model><description>Длина 460 см
+Ширина 170 см
+Высота борта 72 см
+Вес 215 кг
+Грузоподъемность 420 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-460DC_0.jpg</picture></offer>
+            <offer id="12" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/c-6</url><price>192000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-6</vendorCode><model>Алюминиевый катер WB-430DC</model><description>Длина 430 см
+Ширина 160 см
+Высота борта 70 см
+Вес 160 кг
+Грузоподъемность 350 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_430DC_0.jpg</picture></offer>
+            <offer id="13" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-7</url><price>240000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-7</vendorCode><model>Алюминиевый катер WB-490DCM</model><description>Длина 504 см
+Ширина 169 см
+Высота борта 80 см
+Вес 240 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_490_dcm_00.jpg</picture></offer>
+            <offer id="14" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-8</url><price>232000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-8</vendorCode><model>Алюминиевый катер WB-460DCM</model><description>Длина 460 см
+Ширина 170 см
+Высота борта 72 см
+Вес 215 кг
+Грузоподъемность 420 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_460_dcm_08.jpg</picture></offer>
+            <offer id="15" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-9</url><price>194000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-9</vendorCode><model>Алюминиевый катер WB-430DCM</model><description>Длина 430 см
+Ширина 160 см
+Высота борта 70 см
+Вес 189 кг
+Грузоподъемность 350 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_430DCM_0.jpg</picture></offer>
+            <offer id="16" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-1</url><price>1200</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-1</vendorCode><model>Весла для лодки</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0041.jpg</picture></offer>
+            <offer id="18" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-3</url><price>3000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-3</vendorCode><model>Пол книжка</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0031.jpg</picture></offer>
+            <offer id="19" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-10</url><price>236000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-10</vendorCode><model>Алюминиевый катер WB-490</model><description>Длина 504 см
+Ширина 169 см
+Высота борта 80 см
+Вес 230 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1116.jpg</picture></offer>
+            <offer id="20" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-11</url><price>225000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-11</vendorCode><model>Алюминиевый катер WB-460</model><description>Длина 460 см
+Ширина 170 см
+Высота борта 72 см
+Вес 215 кг
+Грузоподъемность 420 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-460_0.jpg</picture></offer>
+            <offer id="21" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-12</url><price>190000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-12</vendorCode><model>Алюминиевый катер WB-430M</model><description>Длина 430 см
+Ширина 160 см
+Высота борта 70 см
+Вес 160 кг
+Грузоподъемность 350 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_430M_0.jpg</picture></offer>
+            <offer id="22" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-4</url><price>1700</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-4</vendorCode><model>Пол реечный</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0074.jpg</picture></offer>
+            <offer id="23" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-5</url><price>800</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-5</vendorCode><model>Лавка для лодки</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0087.jpg</picture></offer>
+            <offer id="25" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-7</url><price>1200</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-7</vendorCode><model>Чехол мягкий</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0051.jpg</picture></offer>
+            <offer id="30" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-12</url><price>1000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-12</vendorCode><model>Сумка для лодки</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0075b2.jpg</picture></offer>
+            <offer id="32" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-14</url><price>850</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-14</vendorCode><model>Сумка для пол книжки</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0088.jpg</picture></offer>
+            <offer id="33" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-15</url><price>800</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-15</vendorCode><model>Насос лягушка</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0054.jpg</picture></offer>
+            <offer id="42" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/g-6</url><price>255000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>г-6</vendorCode><model>WB-470 У</model><description>Длина 530 см
+Ширина 170 см
+Высота борта 93 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_470_U_0.jpg</picture></offer>
+            <offer id="43" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/g-5</url><price>275000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>г-5</vendorCode><model>WB-470 П</model><description>Длина 530 см
+Ширина 170 см
+Высота борта 93 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_470_P_combi_0.jpg</picture></offer>
+            <offer id="44" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/g-4</url><price>256000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>г-4</vendorCode><model>WB-470 Open</model><description>Длина 530 см
+Ширина 170 см
+Высота борта 93 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_91.jpg</picture></offer>
+            <offer id="45" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-60</url><price>35000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-60</vendorCode><model>Голавль</model><description>Длина 410 см
+Ширина 138 см
+Высота борта 50 см
+Вес 70 кг
+Грузоподъемность 225 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_611.jpg</picture></offer>
+            <offer id="46" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/g-3</url><price>330000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>г-3</vendorCode><model>Катер Неман-500 Combi</model><description>Длина 515 см
+Ширина 190 см
+Высота борта 87 см
+Вес 420 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_combi_0.jpg</picture></offer>
+            <offer id="48" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/component/jshopping/reaktor/r-8?Itemid=0</url><price>370</price><currencyId>RUB</currencyId><categoryId>10</categoryId><vendor>Big boat</vendor><vendorCode>р-8</vendorCode><model>Набор Reaktor Гель ПВХ</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Reaktor_Gel-pvc.jpg</picture></offer>
+            <offer id="50" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/component/jshopping/reaktor/r-6?Itemid=0</url><price>330</price><currencyId>RUB</currencyId><categoryId>10</categoryId><vendor>Big boat</vendor><vendorCode>р-6</vendorCode><model>Набор Reaktor Ультра</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_-Reaktor_ultra.jpg</picture></offer>
+            <offer id="51" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/g-1</url><price>275000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>г-1</vendorCode><model>Катер Неман-500 Open</model><description>Длина 515 см
+Ширина 190 см
+Высота борта 87 см
+Вес 500 кг
+Грузоподъемность 420 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_open_combi_0.jpg</picture></offer>
+            <offer id="84" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-39</url><price>65000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-39</vendorCode><model>WB-300</model><description>Длина 295 см
+Ширина 155 см
+Высота борта 50 см
+Вес 42 кг
+Грузоподъемность 220 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_126.jpg</picture></offer>
+            <offer id="85" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-40</url><price>80000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-40</vendorCode><model>Вятка профи-32</model><description>Длина 320 см
+Ширина 140 см
+Высота борта 40 см
+Вес 45 кг
+Грузоподъемность 200 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_120.jpg</picture></offer>
+            <offer id="86" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-41</url><price>87000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-41</vendorCode><model>Вятка профи-37</model><description>Длина 370 см
+Ширина 140 см
+Высота борта 38 см
+Вес 50 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Vyatka-Profi_37.jpg</picture></offer>
+            <offer id="87" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-42</url><price>93000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-42</vendorCode><model>WB-390</model><description>Длина 373 см
+Ширина 143 см
+Высота борта 52 см
+Вес 85 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_216.jpg</picture></offer>
+            <offer id="88" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-43</url><price>97000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-43</vendorCode><model>WB-390М</model><description>Длина 380 см
+Ширина 144 см
+Высота борта 50 см
+Вес 90 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Wyatboat-390M1.jpg</picture></offer>
+            <offer id="89" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-44</url><price>96000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-44</vendorCode><model>WB-390У</model><description>Длина 400 см
+Ширина 144 см
+Высота борта 50 см
+Вес 92 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Wyatboat-390U.jpg</picture></offer>
+            <offer id="90" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-45</url><price>135000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-45</vendorCode><model>WB-430</model><description>Длина 452 см
+Ширина 160 см
+Высота борта 50 см
+Вес 150 кг
+Грузоподъемность 350 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_430_0.jpg</picture></offer>
+            <offer id="91" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-46</url><price>139000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-46</vendorCode><model>Джон-бот</model><description>Длина 400 см
+Ширина 180 см
+Высота борта 51 см
+Вес 90 кг
+Грузоподъемность 300 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_JB.jpg</picture></offer>
+            <offer id="92" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-47</url><price>210000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-47</vendorCode><model>Лодка - шило</model><description>Длина под заказ
+Ширина под заказ
+Высота борта под заказ
+Вес 50-100 кг
+Грузоподъемность 200-500 кг
+Пассажиры 1-5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Wyatboat_awl.jpg</picture></offer>
+            <offer id="93" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-48</url><price>186000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-48</vendorCode><model>WB-460Р</model><description>Длина 460 см
+Ширина 170 см
+Высота борта 72 см
+Вес 190 кг
+Грузоподъемность 420 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-460__.jpg</picture></offer>
+            <offer id="94" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/l-49</url><price>210000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>л-49</vendorCode><model>WB-490Р</model><description>Длина 500 см
+Ширина 169 см
+Высота борта 80 см
+Вес 190 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-490___0.jpg</picture></offer>
+            <offer id="95" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-50</url><price>106000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-50</vendorCode><model>WB-430 Тримаран</model><description>Длина 425 см
+Ширина 170 см
+Высота борта 51 см
+Вес 198 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_96.jpg</picture><oldprice>109000</oldprice></offer>
+            <offer id="96" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-51</url><price>49000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-51</vendorCode><model>Пингвин</model><description>Длина 388 см
+Ширина 148 см
+Высота борта 63 см
+Вес 95 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-p_0.jpg</picture></offer>
+            <offer id="97" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-52</url><price>51000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-52</vendorCode><model>Скат водный велосипед</model><description>Длина 231 см
+Ширина 173 см
+Высота борта 42 см
+Вес 100 кг
+Грузоподъемность 180 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_117.jpg</picture></offer>
+            <offer id="98" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-53</url><price>39000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-53</vendorCode><model>Неман 340 Тримаран</model><description>Длина 340 см
+Ширина 140 см
+Высота борта 55 см
+Вес 73 кг
+Грузоподъемность 200 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_chub_1.jpg</picture></offer>
+            <offer id="99" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-54</url><price>34000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-54</vendorCode><model>Омуль</model><description>Длина 360 см
+Ширина 128 см
+Высота борта 43 см
+Вес 60 кг
+Грузоподъемность 200 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_omul_0.jpg</picture></offer>
+            <offer id="100" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-55</url><price>33000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-55</vendorCode><model>Дельфин</model><description>Длина 310 см
+Ширина 125 см
+Высота борта 40 см
+Вес 50 кг
+Грузоподъемность 195 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_29.jpg</picture></offer>
+            <offer id="101" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-56</url><price>33000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-56</vendorCode><model>Старт Тримаран</model><description>Длина 318 см
+Ширина 145 см
+Высота борта 44 см
+Вес 55 кг
+Грузоподъемность 250 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_start_1.jpg</picture></offer>
+            <offer id="102" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/l-57</url><price>22000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-57</vendorCode><model>Малютка</model><description>Длина 280 см
+Ширина 100 см
+Высота борта 38 см
+Вес 23 кг
+Грузоподъемность 120 кг
+Пассажиры 1 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_28.jpg</picture></offer>
+            <offer id="105" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-32</url><price>8000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-32</vendorCode><model>Водометный тоннель</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Big-Boat_430C_9.jpg</picture></offer>
+            <offer id="106" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-30</url><price>1500</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-30</vendorCode><model>Стрингер алюминиевый для пайолы 9/1000 мм</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108191a.jpg</picture></offer>
+            <offer id="109" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/trailers/tr-2</url><price>59000</price><currencyId>RUB</currencyId><categoryId>12</categoryId><vendor>Big boat</vendor><vendorCode>тр-2</vendorCode><model>Автоприцеп МЗСА 81771E</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_MZSA_11.jpg</picture></offer>
+            <offer id="110" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/trailers/tr-1</url><price>55000</price><currencyId>RUB</currencyId><categoryId>12</categoryId><vendor>Big boat</vendor><vendorCode>тр-1</vendorCode><model>Автоприцеп МЗСА 81771D</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_MZSA_1.jpg</picture></offer>
+            <offer id="111" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-38</url><price>79000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-38</vendorCode><model>Пингвин с консолью</model><description>Длина 388 см
+Ширина 148 см
+Высота борта 63 см
+Вес 105 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-pk_0.jpg</picture></offer>
+            <offer id="112" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-13</url><price>241000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-13</vendorCode><model>Алюминиевый катер WB-490PRO</model><description>Длина 504 см
+Ширина 169 см
+Высота борта 80 см
+Вес 230 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-490PRO_00.jpg</picture></offer>
+            <offer id="113" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-14</url><price>229000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-14</vendorCode><model>Алюминиевый катер WB-460PRO</model><description>Длина 460 см
+Ширина 170 см
+Высота борта 72 см
+Вес 215 кг
+Грузоподъемность 420 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_4111.jpg</picture></offer>
+            <offer id="114" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-15</url><price>195000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-15</vendorCode><model>Алюминиевый катер WB-430PRO</model><description>Длина 430 см
+Ширина 160 см
+Высота борта 70 см
+Вес 160 кг
+Грузоподъемность 350 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_430pro_0.jpg</picture></offer>
+            <offer id="117" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/component/jshopping/reaktor/r-1?Itemid=0</url><price>260</price><currencyId>RUB</currencyId><categoryId>10</categoryId><vendor>Big boat</vendor><vendorCode>р-1</vendorCode><model>Гель ПВХ армированный</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Reaktor_Gel_PVC_0000.jpg</picture></offer>
+            <offer id="119" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/component/jshopping/reaktor/r-3?Itemid=0</url><price>220</price><currencyId>RUB</currencyId><categoryId>10</categoryId><vendor>Big boat</vendor><vendorCode>р-3</vendorCode><model>Жидкий ПВХ</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Reaktor_Liquid_PVC_0P0.jpg</picture></offer>
+            <offer id="120" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-21</url><price>165000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-21</vendorCode><model>Пластиковый катер WB-430DC Тримаран</model><description>Длина 425 см
+Ширина 170 см
+Высота борта 60 см
+Вес 250 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Big-Boat430DC_0_trimaran.jpg</picture></offer>
+            <offer id="121" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-22</url><price>164000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-22</vendorCode><model>Пластиковый катер WB-430M Тримаран</model><description>Длина 425 см
+Ширина 170 см
+Высота борта 60 см
+Вес 250 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Big-Boat_430m_0_trimaran.jpg</picture></offer>
+            <offer id="122" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-23</url><price>149000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-23</vendorCode><model>Пластиковый катер WB-430C Тримаран</model><description>Длина 425 см
+Ширина 170 см
+Высота борта 60 см
+Вес 230 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_11.jpg</picture></offer>
+            <offer id="123" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-24</url><price>163000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-24</vendorCode><model>Пластиковый катер WB-430DCM Тримаран</model><description>Длина 425 см
+Ширина 170 см
+Высота борта 60 см
+Вес 250 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Big-Boat_430DCM_0.jpg</picture></offer>
+            <offer id="124" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-25</url><price>183000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-25</vendorCode><model>Пластиковый катер WB-3 с рундуками</model><description>Длина 470 см
+Ширина 186 см
+Высота борта 87 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-3_runduk_0.jpg</picture></offer>
+            <offer id="125" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-26</url><price>185000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-26</vendorCode><model>Пластиковый катер WB-3 Open</model><description>Длина 425 см
+Ширина 186 см
+Высота борта 87 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Wyatboat-3_Open.jpg</picture></offer>
+            <offer id="126" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-27</url><price>198000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-27</vendorCode><model>Пластиковый катер WB-3DC Open</model><description>Длина 425 см
+Ширина 186 см
+Высота борта 87 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Big-Boa_3DC_0.jpg</picture></offer>
+            <offer id="127" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-28</url><price>215000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-28</vendorCode><model>Пластиковый катер WB-3П</model><description>Длина 470 см
+Ширина 186 см
+Высота борта 87 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat-3P_00.jpg</picture></offer>
+            <offer id="128" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-29</url><price>190000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-29</vendorCode><model>Пластиковый катер WB-3U</model><description>Длина 470 см
+Ширина 186 см
+Высота борта 87 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_wyatboat_3y_0.jpg</picture></offer>
+            <offer id="129" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-30</url><price>290000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-30</vendorCode><model>Пластиковый катер Одиссей-530</model><description>Длина 530 см
+Ширина 213 см
+Высота борта 88 см
+Вес 500 кг
+Грузоподъемность 500 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Odyssey-530_0.jpg</picture></offer>
+            <offer id="130" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/k-31</url><price>289000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>к-31</vendorCode><model>Одиссей-530 Open</model><description>Длина 530 см
+Ширина 213 см
+Высота борта 88 см
+Вес 500 кг
+Грузоподъемность 500 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Odyssey-530_open.jpg</picture></offer>
+            <offer id="131" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-32</url><price>149000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-32</vendorCode><model>WB-390M с консолями</model><description>Длина 380 см
+Ширина 144 см
+Высота борта 50 см
+Вес 110 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Wyatboat-390mc0.jpg</picture></offer>
+            <offer id="132" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/k-33</url><price>850000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-33</vendorCode><model>Алюминиевый катер WB-660</model><description>Длина 660 см
+Ширина 225 см
+Высота борта 90 см
+Вес 435 кг
+Грузоподъемность 900 кг
+Пассажиры 10 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_600_00.jpg</picture></offer>
+            <offer id="133" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-34</url><price>194000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-34</vendorCode><model>Катер Неман-450</model><description>Длина 450 см
+Ширина 186 см
+Высота борта 87 см
+Вес 300 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-450_1.jpg</picture></offer>
+            <offer id="134" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-35</url><price>199000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-35</vendorCode><model>Катер Неман-450 Open</model><description>Длина 450 см
+Ширина 186 см
+Высота борта 87 см
+Вес 300 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-450_open_0.jpg</picture></offer>
+            <offer id="135" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-36</url><price>263000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-36</vendorCode><model>Катер Неман-500 каютный</model><description>Длина 515 см
+Ширина 160 см
+Высота борта 87 см
+Вес 500 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_00.jpg</picture></offer>
+            <offer id="136" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-37</url><price>220000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-37</vendorCode><model>Катер Неман-500P</model><description>Длина 515 см
+Ширина 190 см
+Высота борта 87 см
+Вес 420 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_0.jpg</picture></offer>
+            <offer id="137" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-16</url><price>1500</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-16</vendorCode><model>Киль надувной (короткий)</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0090.jpg</picture></offer>
+            <offer id="138" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-39</url><price>229000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-39</vendorCode><model>Катер Неман-500 Open</model><description>Длина 515 см
+Ширина 186 см
+Высота борта 87 см
+Вес 420 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_0362.JPG</picture></offer>
+            <offer id="139" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-40</url><price>310000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-40</vendorCode><model>Катер Неман-550 каютный</model><description>Длина 540 см
+Ширина 216 см
+Высота борта 87 см
+Вес 580 кг
+Грузоподъемность 600 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-550_1.jpg</picture></offer>
+            <offer id="141" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-18</url><price>1500</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-18</vendorCode><model>Сумка рундук носовой</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108138.jpg</picture></offer>
+            <offer id="142" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-19</url><price>1000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-19</vendorCode><model>Сиденье сумка</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_18877.jpg</picture></offer>
+            <offer id="144" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-21</url><price>1500</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-21</vendorCode><model>Подушка надувная</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108186.jpg</picture></offer>
+            <offer id="146" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-23</url><price>2500</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-23</vendorCode><model>Киль длинный</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_0011083.jpg</picture></offer>
+            <offer id="147" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-24</url><price>3600</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-24</vendorCode><model>Пол книжка киль</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108135.jpg</picture></offer>
+            <offer id="149" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-26</url><price>250</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-26</vendorCode><model>Ручка борта</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108187.jpg</picture></offer>
+            <offer id="150" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-27</url><price>350</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-27</vendorCode><model>Уключина</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108188.jpg</picture></offer>
+            <offer id="151" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-28</url><price>250</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-28</vendorCode><model>Клапан воздушный</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108189.jpg</picture></offer>
+            <offer id="152" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/d-29</url><price>1000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>д-29</vendorCode><model>Рым носовой с роликом</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_001108190.jpg</picture></offer>
+            <offer id="153" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-1</url><price>15000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-1</vendorCode><model>Рулевой механизм PL</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_RHP.jpg</picture></offer>
+            <offer id="154" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-2</url><price>18000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-2</vendorCode><model>Рулевой механизм CH</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_RH.jpg</picture></offer>
+            <offer id="155" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-3</url><price>21000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-3</vendorCode><model>Топливная система Medium</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_TB.jpg</picture></offer>
+            <offer id="156" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-4</url><price>23000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-4</vendorCode><model>Топливная система Big</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_T1.jpg</picture></offer>
+            <offer id="157" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-5</url><price>1100</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-5</vendorCode><model>С-жилет</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_14_PL.jpg</picture></offer>
+            <offer id="158" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-6</url><price>1400</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-6</vendorCode><model>С-жилет с карманами</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_16_PL.jpg</picture></offer>
+            <offer id="159" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-7</url><price>5000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-7</vendorCode><model>Перчаточный ящик</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_1_PL.jpg</picture></offer>
+            <offer id="160" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-8</url><price>13000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-8</vendorCode><model>Сиденье на стойке</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_5_PL.jpg</picture></offer>
+            <offer id="161" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-9</url><price>5000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-9</vendorCode><model>Трап кормовой</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_26_PL.jpg</picture></offer>
+            <offer id="162" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-10</url><price>4000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-10</vendorCode><model>Весла</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_33_PL.jpg</picture></offer>
+            <offer id="163" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/component/jshopping/reaktor/r-4?Itemid=0</url><price>60</price><currencyId>RUB</currencyId><categoryId>10</categoryId><vendor>Big boat</vendor><vendorCode>р-4</vendorCode><model>Активатор Reaktor</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Activator_00.jpg</picture></offer>
+            <offer id="164" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-12</url><price>10000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-12</vendorCode><model>Трап носовой</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_35_PL.jpg</picture></offer>
+            <offer id="165" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-13</url><price>4000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-13</vendorCode><model>Носовой роульс</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_36_PL.jpg</picture></offer>
+            <offer id="166" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-14</url><price>4500</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-14</vendorCode><model>Якорный люк</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_37_PL.jpg</picture></offer>
+            <offer id="167" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-15</url><price>13000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-15</vendorCode><model>Стояночный тент</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_39_PL.jpg</picture></offer>
+            <offer id="168" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-16</url><price>20000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-16</vendorCode><model>Ходовой тент с дугами</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_40_PL.jpg</picture></offer>
+            <offer id="169" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-17</url><price>7000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-17</vendorCode><model>Носовой тент</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_41_PL.jpg</picture></offer>
+            <offer id="170" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-18</url><price>5000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-18</vendorCode><model>АКБ</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_42_PL.jpg</picture></offer>
+            <offer id="171" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-19</url><price>1000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-19</vendorCode><model>Черпак</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_43_PL.jpg</picture></offer>
+            <offer id="172" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-20</url><price>500</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-20</vendorCode><model>Усилитель для транца</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_44_PL.jpg</picture></offer>
+            <offer id="174" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-22</url><price>1000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-22</vendorCode><model>Держатель спиннинга</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_48_PL.jpg</picture></offer>
+            <offer id="175" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-23</url><price>3000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-23</vendorCode><model>Поворотный механизм для кресла</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_24_PL.jpg</picture></offer>
+            <offer id="176" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-24</url><price>500</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-24</vendorCode><model>Швартовые утки</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_47_PL.jpg</picture></offer>
+            <offer id="177" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-25</url><price>15000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-25</vendorCode><model>Палуба - книжка</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_52_PL.jpg</picture></offer>
+            <offer id="178" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-26</url><price>15000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-26</vendorCode><model>Топливная система AL</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_TA.jpg</picture></offer>
+            <offer id="179" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-27</url><price>2000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-27</vendorCode><model>Крепление эхолота</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_54_PL.jpg</picture></offer>
+            <offer id="180" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-28</url><price>9000</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-28</vendorCode><model>Кринолины</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_55_PL.jpg</picture></offer>
+            <offer id="181" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-29</url><price>300</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-29</vendorCode><model>Уключина</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_56_PL.jpg</picture></offer>
+            <offer id="182" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-30</url><price>300</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-30</vendorCode><model>Подуключина</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_57_PL.jpg</picture></offer>
+            <offer id="183" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/p-equipment/p-31</url><price>500</price><currencyId>RUB</currencyId><categoryId>11</categoryId><vendor>Big boat</vendor><vendorCode>п-31</vendorCode><model>Рым</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_58_PL.jpg</picture></offer>
+            <offer id="184" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/trailers/tr-3</url><price>75000</price><currencyId>RUB</currencyId><categoryId>12</categoryId><vendor>Big boat</vendor><vendorCode>тр-3</vendorCode><model>Автоприцеп МЗСА 81771G</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_MZSA_008.jpg</picture></offer>
+            <offer id="187" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/g-2</url><price>249000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>г-2</vendorCode><model>WB-470</model><description>Длина 490 см
+Ширина 170 см
+Высота борта 93 см
+Вес 280 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat_470_0.jpg</picture></offer>
+            <offer id="188" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/component/jshopping/reaktor/r-5?Itemid=0</url><price>400</price><currencyId>RUB</currencyId><categoryId>10</categoryId><vendor>Big boat</vendor><vendorCode>р-5</vendorCode><model>Набор Reaktor Супер Актив</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BigBoat__Reaktor_Pvc-glue.jpg</picture></offer>
+            <offer id="194" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/g-7</url><price>410000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>r-7</vendorCode><model>Катер Неман-550 Combi</model><description>Длина 550 см
+Ширина 216 см
+Высота борта 87 см
+Вес 500 кг
+Грузоподъемность 500 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_0480.JPG</picture></offer>
+            <offer id="195" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/trailers/tr-4</url><price>90000</price><currencyId>RUB</currencyId><categoryId>12</categoryId><vendor>Big boat</vendor><vendorCode>тр-4</vendorCode><model>Автоприцеп МЗСА-81773G (2-осн.)</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_393_image.jpg</picture></offer>
+            <offer id="196" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-48</url><price>325000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-34</vendorCode><model>Неман 500 DCM</model><description>Длина 525 см
+Ширина 195 см
+Высота борта 87 см
+Вес 190 кг
+Грузоподъемность 550 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_0549.JPG</picture></offer>
+            <offer id="197" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/component/jshopping/product/view/15/197?Itemid=0</url><price>800000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>к-35</vendorCode><model>Неман 550 алюминиевый</model><description>Длина 600 см
+Ширина 216 см
+Высота борта 87 см
+Вес 800 кг
+Грузоподъемность 700 кг
+Пассажиры 8 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_5.JPG</picture></offer>
+            <offer id="198" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-41</url><price>584000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-41</vendorCode><model>Неман 500 алюминиевый</model><description>Длина 550 см
+Ширина 200 см
+Высота борта 87 см
+Вес 300 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_01.jpg</picture></offer>
+            <offer id="199" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-42</url><price>250000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-42</vendorCode><model>Неман-450 Open Combi</model><description>Длина 450 см
+Ширина 186 см
+Высота борта 87 см
+Вес 250 кг
+Грузоподъемность 400 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_0444.JPG</picture></offer>
+            <offer id="202" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-44</url><price>320000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-44</vendorCode><model>Неман 500 DC с покраской</model><description>Длина 506 см
+Ширина 180 см
+Высота борта 86 см
+Вес 295 кг
+Грузоподъемность 400 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_0005.jpg</picture></offer>
+            <offer id="203" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/pn-1</url><price>194000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>pn-1</vendorCode><model>Неман-450</model><description>Длина 450 см
+Ширина 186 см
+Высота борта 87 см
+Вес 300 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-450_11.jpg</picture></offer>
+            <offer id="204" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/pn-2</url><price>199000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>pn-2</vendorCode><model>Неман-450 Open</model><description>Длина 450 см
+Ширина 186 см
+Высота борта 87 см
+Вес 300 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-450_open_01.jpg</picture></offer>
+            <offer id="205" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/pn-3</url><price>220000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>pn-3</vendorCode><model>Неман-500R</model><description>Длина 515 см
+Ширина 190 см
+Высота борта 87 см
+Вес 420 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_01.jpg</picture></offer>
+            <offer id="206" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/pn-4</url><price>229000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>pn-4</vendorCode><model>Неман-500 Open</model><description>Длина 515 см
+Ширина 186 см
+Высота борта 87 см
+Вес 420 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_03621.JPG</picture></offer>
+            <offer id="207" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/pn-5</url><price>263000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>pn-5</vendorCode><model>Неман-500 каютный</model><description>Длина 515 см
+Ширина 160 см
+Высота борта 87 см
+Вес 500 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_001.jpg</picture></offer>
+            <offer id="208" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/plastic-boat/pn-6</url><price>310000</price><currencyId>RUB</currencyId><categoryId>7</categoryId><vendor>Big boat</vendor><vendorCode>pn-6</vendorCode><model>Неман-550 каютный</model><description>Длина 540 см
+Ширина 216 см
+Высота борта 87 см
+Вес 580 кг
+Грузоподъемность 600 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-550_01.jpg</picture></offer>
+            <offer id="209" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/na</url><price>325000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>na</vendorCode><model>Неман 500 DCM</model><description>Длина 525 см
+Ширина 195 см
+Высота борта 87 см
+Вес 190 кг
+Грузоподъемность 550 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_05491.JPG</picture></offer>
+            <offer id="210" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/na-2</url><price>584000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>na-2</vendorCode><model>Неман 500 алюминиевый</model><description>Длина 550 см
+Ширина 200 см
+Высота борта 87 см
+Вес 300 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_012.jpg</picture></offer>
+            <offer id="211" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/na-3</url><price>800000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>na-3</vendorCode><model>Неман 550 алюминиевый</model><description>Длина 600 см
+Ширина 216 см
+Высота борта 87 см
+Вес 800 кг
+Грузоподъемность 700 кг
+Пассажиры 8 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_51.JPG</picture></offer>
+            <offer id="212" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/ko-1</url><price>250000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>ko-1</vendorCode><model>Неман-450 Open Combi</model><description>Длина 450 см
+Ширина 186 см
+Высота борта 87 см
+Вес 300 кг
+Грузоподъемность 400 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_04441.JPG</picture></offer>
+            <offer id="213" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/ko-2</url><price>275000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>ko-2</vendorCode><model>Неман-500 Open</model><description>Длина 515 см
+Ширина 190 см
+Высота борта 87 см
+Вес 500 кг
+Грузоподъемность 420 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_open_combi_01.jpg</picture></offer>
+            <offer id="214" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/ko-3</url><price>330000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>ko-3</vendorCode><model>Неман-500 Comb</model><description>Длина 515 см
+Ширина 190 см
+Высота борта 87 см
+Вес 420 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_Neman-500_combi_01.jpg</picture></offer>
+            <offer id="215" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/combi-boat/ko-4</url><price>410000</price><currencyId>RUB</currencyId><categoryId>13</categoryId><vendor>Big boat</vendor><vendorCode>ko-4</vendorCode><model>Неман-550 Combi</model><description>Длина 550 см
+Ширина 216 см
+Высота борта 87 см
+Вес 420 кг
+Грузоподъемность 500 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_04801.JPG</picture></offer>
+            <offer id="216" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/na-4</url><price>320000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><model>Неман 500 DC</model><description>Длина 506 см
+Ширина 180 см
+Высота борта 86 см
+Вес 295 кг
+Грузоподъемность 400 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_00051.jpg</picture></offer>
+            <offer id="217" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-49</url><price>310000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-49</vendorCode><model>Катер Неман 500 DC</model><description>Длина 506 см
+Ширина 180 см
+Высота борта 86 см
+Вес 295 кг
+Грузоподъемность 400 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_013.jpg</picture></offer>
+            <offer id="218" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-50</url><price>319000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-50</vendorCode><model>Катер Неман 500</model><description>Длина 506 см
+Ширина 180 см
+Высота борта 86 см
+Вес 295 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_014.jpg</picture></offer>
+            <offer id="221" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/550dc</url><price>405000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-43</vendorCode><model>Неман 550DC</model><description>Длина 534 см
+Ширина 203 см
+Высота борта 102 см
+Вес 415 кг
+Грузоподъемность 600 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_015.jpg</picture></offer>
+            <offer id="224" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/neman-500dcpro</url><price>340000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-44</vendorCode><model>Алюминиевый катер Неман 500 DC Pro</model><description>Длина 506 см
+Ширина 180 см
+Высота борта 86 см
+Вес 295 кг
+Грузоподъемность 400 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_016.jpg</picture></offer>
+            <offer id="229" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/t250</url><price>11900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-50</vendorCode><model>Лодка ПВХ Big Boat Т250</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_133.jpg</picture></offer>
+            <offer id="229" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/t250</url><price>11900</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><vendorCode>л-50</vendorCode><model>Лодка ПВХ Big Boat Т250</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_133.jpg</picture></offer>
+            <offer id="232" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/t310</url><price>15900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-52</vendorCode><model>Лодка ПВХ Big Boat T310</model><description>Длина 310 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 20 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10211.jpg</picture></offer>
+            <offer id="232" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/t310</url><price>15900</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><vendorCode>л-52</vendorCode><model>Лодка ПВХ Big Boat T310</model><description>Длина 310 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 20 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10211.jpg</picture></offer>
+            <offer id="233" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/bering340p</url><price>19000</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><vendorCode>k-52</vendorCode><model>Лодка ПВХ Bering (Беринг) 340П</model><description>Длина 340 см
+Ширина 165 см
+Диаметр борта 46 см
+Вес 33 кг
+Грузоподъемность 470 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_148.jpg</picture></offer>
+            <offer id="233" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bering340p</url><price>19000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>k-52</vendorCode><model>Лодка ПВХ Bering (Беринг) 340П</model><description>Длина 340 см
+Ширина 165 см
+Диаметр борта 46 см
+Вес 33 кг
+Грузоподъемность 470 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_148.jpg</picture></offer>
+            <offer id="234" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bering310k</url><price>21900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-53</vendorCode><model>Лодка ПВХ Bering (Беринг) 310К</model><description>Длина 310 см
+Ширина 160 см
+Диаметр борта 46 см
+Вес 40 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10201.jpg</picture><oldprice>26000</oldprice></offer>
+            <offer id="234" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bering310k</url><price>21900</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>л-53</vendorCode><model>Лодка ПВХ Bering (Беринг) 310К</model><description>Длина 310 см
+Ширина 160 см
+Диаметр борта 46 см
+Вес 40 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10201.jpg</picture><oldprice>26000</oldprice></offer>
+            <offer id="235" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bering380k</url><price>31000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-62</vendorCode><model>Лодка ПВХ Bering (Беринг) 380К</model><description>Длина 380 см
+Ширина 170 см
+Диаметр борта 46 см
+Вес 60 кг
+Грузоподъемность 530 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_527.jpg</picture><oldprice>36000</oldprice></offer>
+            <offer id="235" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bering380k</url><price>31000</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>л-62</vendorCode><model>Лодка ПВХ Bering (Беринг) 380К</model><description>Длина 380 см
+Ширина 170 см
+Диаметр борта 46 см
+Вес 60 кг
+Грузоподъемность 530 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_527.jpg</picture><oldprice>36000</oldprice></offer>
+            <offer id="237" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-t250k</url><price>15900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-55</vendorCode><model>Лодка ПВХ Big Boat T250К</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 25 кг
+Грузоподъемность 200 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_11181.jpg</picture></offer>
+            <offer id="237" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bigboat-t250k</url><price>15900</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>л-55</vendorCode><model>Лодка ПВХ Big Boat T250К</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 25 кг
+Грузоподъемность 200 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_11181.jpg</picture></offer>
+            <offer id="238" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-c280</url><price>12400</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-56</vendorCode><model>Лодка ПВХ Big Boat С280</model><description>Длина 280 см
+Ширина 125 см
+Диаметр борта 32 см
+Вес 16 кг
+Грузоподъемность 350 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_150.jpg</picture></offer>
+            <offer id="238" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/bigboat-c280</url><price>12400</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><vendorCode>л-56</vendorCode><model>Лодка ПВХ Big Boat С280</model><description>Длина 280 см
+Ширина 125 см
+Диаметр борта 32 см
+Вес 16 кг
+Грузоподъемность 350 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_150.jpg</picture></offer>
+            <offer id="239" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-c240</url><price>10500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat C240</model><description>Длина 240 см
+Ширина 125 см
+Диаметр борта 32 см
+Вес 11 кг
+Грузоподъемность 200 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1-4-600x450.jpg</picture></offer>
+            <offer id="239" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/bigboat-c240</url><price>10500</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat C240</model><description>Длина 240 см
+Ширина 125 см
+Диаметр борта 32 см
+Вес 11 кг
+Грузоподъемность 200 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1-4-600x450.jpg</picture></offer>
+            <offer id="240" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-tm320</url><price>17900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-57</vendorCode><model>Лодка ПВХ Big Boat ТМ320</model><description>Длина 320 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 21 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1218.jpg</picture></offer>
+            <offer id="240" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/bigboat-tm320</url><price>17900</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><vendorCode>л-57</vendorCode><model>Лодка ПВХ Big Boat ТМ320</model><description>Длина 320 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 21 кг
+Грузоподъемность 400 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1218.jpg</picture></offer>
+            <offer id="241" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/privalniy-brus</url><price>1000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>d-33</vendorCode><model>Защита баллона броней - 60 мм</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1_331.jpg</picture></offer>
+            <offer id="242" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bering340k</url><price>24000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-57</vendorCode><model>Лодка ПВХ Bering (Беринг) 340К</model><description>Длина 340 см
+Ширина 165 см
+Диаметр борта 46 см
+Вес 52 кг
+Грузоподъемность 480 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_13-10-600x450.jpg</picture><oldprice>29000</oldprice></offer>
+            <offer id="242" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bering340k</url><price>24000</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>л-57</vendorCode><model>Лодка ПВХ Bering (Беринг) 340К</model><description>Длина 340 см
+Ширина 165 см
+Диаметр борта 46 см
+Вес 52 кг
+Грузоподъемность 480 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_13-10-600x450.jpg</picture><oldprice>29000</oldprice></offer>
+            <offer id="243" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/kosinka</url><price>300</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>d-34</vendorCode><model>Косынка</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_788544866779.jpg</picture></offer>
+            <offer id="244" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/bronirovanie</url><price>3500</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>d-34</vendorCode><model>Бронирование - 230 мм</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_16077.jpg</picture></offer>
+            <offer id="245" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-t280</url><price>12900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-38</vendorCode><model>Лодка ПВХ Big Boat T280</model><description>Длина 280 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 20 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_339.jpg</picture></offer>
+            <offer id="245" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/bigboat-t280</url><price>12900</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><vendorCode>л-38</vendorCode><model>Лодка ПВХ Big Boat T280</model><description>Длина 280 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 20 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_339.jpg</picture></offer>
+            <offer id="246" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-320k</url><price>22500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat TM320K</model><description>Длина 320 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 37 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_6361.jpg</picture></offer>
+            <offer id="246" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bigboat-320k</url><price>22500</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat TM320K</model><description>Длина 320 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 37 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_6361.jpg</picture></offer>
+            <offer id="247" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bigboat-tm260k</url><price>17900</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat TM260K</model><description>Длина 260 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 30 кг
+Грузоподъемность 400 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_2401.jpg</picture></offer>
+            <offer id="247" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-tm260k</url><price>17900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat TM260K</model><description>Длина 260 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 30 кг
+Грузоподъемность 400 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_2401.jpg</picture></offer>
+            <offer id="248" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/grebnye/bigboat-ta250</url><price>12000</price><currencyId>RUB</currencyId><categoryId>17</categoryId><vendor>Big boat</vendor><vendorCode>л-59</vendorCode><model>Лодка ПВХ Big Boat ТА250</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1275878.jpg</picture></offer>
+            <offer id="248" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-ta250</url><price>12000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-59</vendorCode><model>Лодка ПВХ Big Boat ТА250</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1275878.jpg</picture></offer>
+            <offer id="249" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-tau200</url><price>9500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-60</vendorCode><model>Лодка ПВХ Big Boat ТАУ 200</model><description>Длина 200 см
+Ширина 114 см
+Диаметр борта 32 см
+Вес 9 кг
+Грузоподъемность 180 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_343.jpg</picture></offer>
+            <offer id="249" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/grebnye/bigboat-tau200</url><price>9500</price><currencyId>RUB</currencyId><categoryId>17</categoryId><vendor>Big boat</vendor><vendorCode>л-60</vendorCode><model>Лодка ПВХ Big Boat ТАУ 200</model><description>Длина 200 см
+Ширина 114 см
+Диаметр борта 32 см
+Вес 9 кг
+Грузоподъемность 180 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_343.jpg</picture></offer>
+            <offer id="250" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-tau240</url><price>9900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-61</vendorCode><model>Лодка ПВХ Big Boat ТАУ 240</model><description>Длина 240 см
+Ширина 105 см
+Диаметр борта 32 см
+Вес 9 кг
+Грузоподъемность 200 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_170.jpg</picture></offer>
+            <offer id="250" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/grebnye/bigboat-tau240</url><price>9900</price><currencyId>RUB</currencyId><categoryId>17</categoryId><vendor>Big boat</vendor><vendorCode>л-61</vendorCode><model>Лодка ПВХ Big Boat ТАУ 240</model><description>Длина 240 см
+Ширина 105 см
+Диаметр борта 32 см
+Вес 9 кг
+Грузоподъемность 200 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_170.jpg</picture></offer>
+            <offer id="251" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-tm280</url><price>14900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-61</vendorCode><model>Лодка ПВХ Big Boat TM 280</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 18 кг
+Грузоподъемность 400 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_244.jpg</picture></offer>
+            <offer id="251" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/trantsevye/bigboat-tm280</url><price>14900</price><currencyId>RUB</currencyId><categoryId>16</categoryId><vendor>Big boat</vendor><vendorCode>л-61</vendorCode><model>Лодка ПВХ Big Boat TM 280</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 18 кг
+Грузоподъемность 400 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_244.jpg</picture></offer>
+            <offer id="252" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/regat310</url><price>24900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>r-31</vendorCode><model>Лодка ПВХ Regat (Регат) 310</model><description>Длина 310 см
+Ширина 160 см
+Диаметр борта 46 см
+Вес 40 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1035.jpg</picture><oldprice>27000</oldprice></offer>
+            <offer id="252" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/regat310</url><price>24900</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>r-31</vendorCode><model>Лодка ПВХ Regat (Регат) 310</model><description>Длина 310 см
+Ширина 160 см
+Диаметр борта 46 см
+Вес 40 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1035.jpg</picture><oldprice>27000</oldprice></offer>
+            <offer id="253" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/regat340</url><price>27900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>r-34</vendorCode><model>Лодка ПВХ Regat (Регат) 340</model><description>Длина 340 см
+Ширина 170 см
+Диаметр борта 46 см
+Вес 45 кг
+Грузоподъемность 480 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1134.jpg</picture><oldprice>30000</oldprice></offer>
+            <offer id="253" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/regat340</url><price>27900</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>r-34</vendorCode><model>Лодка ПВХ Regat (Регат) 340</model><description>Длина 340 см
+Ширина 170 см
+Диаметр борта 46 см
+Вес 45 кг
+Грузоподъемность 480 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1134.jpg</picture><oldprice>30000</oldprice></offer>
+            <offer id="254" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/regat360</url><price>29900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>r-36</vendorCode><model>Лодка ПВХ Regat (Регат) 360</model><description>Длина 360 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 48 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_regat360_1.jpg</picture><oldprice>35000</oldprice></offer>
+            <offer id="254" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/regat360</url><price>29900</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>r-36</vendorCode><model>Лодка ПВХ Regat (Регат) 360</model><description>Длина 360 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 48 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_regat360_1.jpg</picture><oldprice>35000</oldprice></offer>
+            <offer id="255" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/regat380</url><price>34900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>r-38</vendorCode><model>Лодка ПВХ Regat (Регат) 380</model><description>Длина 380 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 57 кг
+Грузоподъемность 600 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10351.jpg</picture><oldprice>40000</oldprice></offer>
+            <offer id="255" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/regat380</url><price>34900</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>r-38</vendorCode><model>Лодка ПВХ Regat (Регат) 380</model><description>Длина 380 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 57 кг
+Грузоподъемность 600 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10351.jpg</picture><oldprice>40000</oldprice></offer>
+            <offer id="258" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/varyag380</url><price>44000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>v-1</vendorCode><model>Лодка ПВХ Varyag (Варяг) 380</model><description>Длина 380 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 65 кг
+Грузоподъемность 700 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_155.jpg</picture></offer>
+            <offer id="258" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/varyag380</url><price>44000</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>v-1</vendorCode><model>Лодка ПВХ Varyag (Варяг) 380</model><description>Длина 380 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 65 кг
+Грузоподъемность 700 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_155.jpg</picture></offer>
+            <offer id="256" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/polnoe-bronirovanie</url><price>5000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>d-35</vendorCode><model>Полное бронирование дна лодки</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_102688.jpg</picture></offer>
+            <offer id="257" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bering360k</url><price>26000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-5</vendorCode><model>Лодка ПВХ Bering (Беринг) 360К</model><description>Длина 360 см
+Ширина 170 см
+Диаметр борта 46 см
+Вес 55 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_13-10.jpg</picture><oldprice>32000</oldprice></offer>
+            <offer id="257" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bering360k</url><price>26000</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>л-5</vendorCode><model>Лодка ПВХ Bering (Беринг) 360К</model><description>Длина 360 см
+Ширина 170 см
+Диаметр борта 46 см
+Вес 55 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_13-10.jpg</picture><oldprice>32000</oldprice></offer>
+            <offer id="259" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-aluminum/wb-390p</url><price>95000</price><currencyId>RUB</currencyId><categoryId>5</categoryId><vendor>Big boat</vendor><vendorCode>w390</vendorCode><model>WB-390P</model><description>Длина 400 см
+Ширина 150 см
+Высота борта 65 см
+Вес 95 кг
+Грузоподъемность 350 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_DSC_0957.jpg</picture></offer>
+            <offer id="260" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/varyag-470</url><price>95000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>v-2</vendorCode><model>Лодка ПВХ Varyag (Варяг) 470</model><description>Длина 470 см
+Ширина 195 см
+Диаметр борта 53 см
+Вес 85 кг
+Грузоподъемность 1000 кг
+Пассажиры 8 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_264.jpg</picture></offer>
+            <offer id="260" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/varyag-470</url><price>95000</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>v-2</vendorCode><model>Лодка ПВХ Varyag (Варяг) 470</model><description>Длина 470 см
+Ширина 195 см
+Диаметр борта 53 см
+Вес 85 кг
+Грузоподъемность 1000 кг
+Пассажиры 8 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_264.jpg</picture></offer>
+            <offer id="261" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/regat360les</url><price>33900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>r-37</vendorCode><model>Лодка ПВХ Regat (Регат) 360 лес</model><description>Длина 360 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 48 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1231.jpg</picture><oldprice>37000</oldprice></offer>
+            <offer id="261" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/regat360les</url><price>33900</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>r-37</vendorCode><model>Лодка ПВХ Regat (Регат) 360 лес</model><description>Длина 360 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 48 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1231.jpg</picture><oldprice>37000</oldprice></offer>
+            <offer id="262" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ermak-400</url><price>45000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-4</vendorCode><model>Лодка ПВХ Ermak (Ермак) 400</model><description>Длина 400 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 30 кг
+Грузоподъемность 700 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_5501.jpg</picture></offer>
+            <offer id="262" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/ermak-400</url><price>45000</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-4</vendorCode><model>Лодка ПВХ Ermak (Ермак) 400</model><description>Длина 400 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 30 кг
+Грузоподъемность 700 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_5501.jpg</picture></offer>
+            <offer id="278" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/t250nd</url><price>14900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>л-51</vendorCode><model>Лодка ПВХ Т 250 НД</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_850.jpg</picture></offer>
+            <offer id="278" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/t250nd</url><price>14900</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>л-51</vendorCode><model>Лодка ПВХ Т 250 НД</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_850.jpg</picture></offer>
+            <offer id="263" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ermak-360</url><price>37500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-5</vendorCode><model>Лодка ПВХ Ermak (Ермак) 360</model><description>Длина 360 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 50 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_744478.jpg</picture></offer>
+            <offer id="263" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/ermak-360</url><price>37500</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-5</vendorCode><model>Лодка ПВХ Ermak (Ермак) 360</model><description>Длина 360 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 50 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_744478.jpg</picture></offer>
+            <offer id="264" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/bigboat-280k</url><price>19400</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat TM280K</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 37 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_636.jpg</picture></offer>
+            <offer id="264" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/bigboat-280k</url><price>19400</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><model>Лодка ПВХ Big Boat TM280K</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 40 см
+Вес 37 кг
+Грузоподъемность 450 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_636.jpg</picture></offer>
+            <offer id="265" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ermak-380</url><price>42000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-5</vendorCode><model>Лодка ПВХ Ermak (Ермак) 380</model><description>Длина 380 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 50 кг
+Грузоподъемность 570 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_8463.jpg</picture></offer>
+            <offer id="265" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/ermak-380</url><price>42000</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-5</vendorCode><model>Лодка ПВХ Ermak (Ермак) 380</model><description>Длина 380 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 50 кг
+Грузоподъемность 570 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_8463.jpg</picture></offer>
+            <offer id="266" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/young-260</url><price>16100</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-5</vendorCode><model>Лодка ПВХ Юнг 260</model><description>Длина 265 см
+Ширина 155 см
+Диаметр борта 46 см
+Вес 18 кг
+Грузоподъемность 400 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1821.jpg</picture></offer>
+            <offer id="266" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/young-260</url><price>16100</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-5</vendorCode><model>Лодка ПВХ Юнг 260</model><description>Длина 265 см
+Ширина 155 см
+Диаметр борта 46 см
+Вес 18 кг
+Грузоподъемность 400 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1821.jpg</picture></offer>
+            <offer id="267" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/young-280</url><price>18500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-6</vendorCode><model>Лодка ПВХ Юнг 280</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 46 см
+Вес 20 кг
+Грузоподъемность 450 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_2601.jpg</picture></offer>
+            <offer id="267" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/young-280</url><price>18500</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-6</vendorCode><model>Лодка ПВХ Юнг 280</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 46 см
+Вес 20 кг
+Грузоподъемность 450 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_2601.jpg</picture></offer>
+            <offer id="268" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/young-310</url><price>19500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-6</vendorCode><model>Лодка ПВХ Юнг 310</model><description>Длина 310 см
+Ширина 155 см
+Диаметр борта 46 см
+Вес 23 кг
+Грузоподъемность 500 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_4561.jpg</picture></offer>
+            <offer id="268" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/young-310</url><price>19500</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-6</vendorCode><model>Лодка ПВХ Юнг 310</model><description>Длина 310 см
+Ширина 155 см
+Диаметр борта 46 см
+Вес 23 кг
+Грузоподъемность 500 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_4561.jpg</picture></offer>
+            <offer id="269" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/regat360kam</url><price>33900</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>r-37</vendorCode><model>Лодка ПВХ Regat (Регат) 360 камуфляж</model><description>Длина 360 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 48 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1245.jpg</picture><oldprice>37000</oldprice></offer>
+            <offer id="269" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/regat360kam</url><price>33900</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>r-37</vendorCode><model>Лодка ПВХ Regat (Регат) 360 камуфляж</model><description>Длина 360 см
+Ширина 175 см
+Диаметр борта 46 см
+Вес 48 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1245.jpg</picture><oldprice>37000</oldprice></offer>
+            <offer id="270" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/boats/boat-plastic/laguna</url><price>100000</price><currencyId>RUB</currencyId><categoryId>6</categoryId><vendor>Big boat</vendor><vendorCode>л-61</vendorCode><model>Катамаран - Лагуна</model><description>Длина 305 см
+Ширина 205 см
+Высота борта 43 см
+Вес 98 кг
+Грузоподъемность 300 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_11.png</picture></offer>
+            <offer id="271" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/wb660cabin</url><price>1130000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-34</vendorCode><model>Алюминиевый катер WB-660 Cabin</model><description>Длина 660 см
+Ширина 220 см
+Высота борта 110 см
+Вес 915 кг
+Грузоподъемность 800 кг
+Пассажиры 8 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_111.png</picture></offer>
+            <offer id="272" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/neman500rubka</url><price>750000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>na-4</vendorCode><model>Неман 500 с закр. рубкой</model><description>Длина 550 см
+Ширина 200 см
+Высота борта 51 см
+Вес 620 кг
+Грузоподъемность 500 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_112.png</picture></offer>
+            <offer id="273" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/neman-550dcpro</url><price>425000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>na-6</vendorCode><model>Неман 550 DC Pro</model><description>Длина 534 см
+Ширина 203 см
+Высота борта 102 см
+Вес 415 кг
+Грузоподъемность 600 кг
+Пассажиры 7 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_123.png</picture></offer>
+            <offer id="274" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/yar-260</url><price>18500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-8</vendorCode><model>Лодка ПВХ Яр 260</model><description>Длина 265 см
+Ширина 155 см
+Диаметр борта 50 см
+Вес 18 кг
+Грузоподъемность 400 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10403.jpg</picture></offer>
+            <offer id="274" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/yar-260</url><price>18500</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-8</vendorCode><model>Лодка ПВХ Яр 260</model><description>Длина 265 см
+Ширина 155 см
+Диаметр борта 50 см
+Вес 18 кг
+Грузоподъемность 400 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_10403.jpg</picture></offer>
+            <offer id="275" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/yar-280</url><price>19500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-9</vendorCode><model>Лодка ПВХ Яр 280</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 50 см
+Вес 20 кг
+Грузоподъемность 450 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_260.jpg</picture></offer>
+            <offer id="275" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/yar-280</url><price>19500</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-9</vendorCode><model>Лодка ПВХ Яр 280</model><description>Длина 280 см
+Ширина 155 см
+Диаметр борта 50 см
+Вес 20 кг
+Грузоподъемность 450 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_260.jpg</picture></offer>
+            <offer id="276" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/yar-310</url><price>20500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-10</vendorCode><model>Лодка ПВХ Яр 310</model><description>Длина 310 см
+Ширина 155 см
+Диаметр борта 50 см
+Вес 23 кг
+Грузоподъемность 500 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_555.jpg</picture></offer>
+            <offer id="276" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/yar-310</url><price>20500</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-10</vendorCode><model>Лодка ПВХ Яр 310</model><description>Длина 310 см
+Ширина 155 см
+Диаметр борта 50 см
+Вес 23 кг
+Грузоподъемность 500 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_555.jpg</picture></offer>
+            <offer id="277" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ta250nd</url><price>14200</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>e-11</vendorCode><model>Лодка ПВХ ТА 250 НД</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_261.jpg</picture></offer>
+            <offer id="277" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/ndnd/ta250nd</url><price>14200</price><currencyId>RUB</currencyId><categoryId>20</categoryId><vendor>Big boat</vendor><vendorCode>e-11</vendorCode><model>Лодка ПВХ ТА 250 НД</model><description>Длина 250 см
+Ширина 135 см
+Диаметр борта 36 см
+Вес 14 кг
+Грузоподъемность 300 кг
+Пассажиры 2 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_261.jpg</picture></offer>
+            <offer id="280" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/neman450dc</url><price>260000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-55</vendorCode><model>Катер Неман-450 DC</model><description>Длина 450 см
+Ширина 190 см
+Высота борта 90 см
+Вес 249 кг
+Грузоподъемность 400 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_001.png</picture></offer>
+            <offer id="281" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/wb-390pro</url><price>160000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>л-50</vendorCode><model>Алюминиевый катер WB-390PRO</model><description>Длина 400 см
+Ширина 150 см
+Высота борта 65 см
+Вес 110 кг
+Грузоподъемность 350 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_0011.png</picture></offer>
+            <offer id="282" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/450dcnew</url><price>260000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>na-6</vendorCode><model>Неман-450 DC NEW</model><description>Длина 460 см
+Ширина 190 см
+Высота борта 90 см
+Вес 249 кг
+Грузоподъемность 400 кг
+Пассажиры 6 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_015.png</picture></offer>
+            <offer id="283" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/wb-390dcm</url><price>160000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>391</vendorCode><model>WB-390DCM</model><description>Длина 400 см
+Ширина 150 см
+Высота борта 65 см
+Вес 110 кг
+Грузоподъемность 350 кг
+Пассажиры 4 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_0122.png</picture></offer>
+            <offer id="284" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/wb390u</url><price>132000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>392</vendorCode><model>WB-390У с консолью</model><description>Длина 400 см
+Ширина 137 см
+Высота борта 57 см
+Вес 112 кг
+Грузоподъемность 300 кг
+Пассажиры 3 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_091.png</picture></offer>
+            <offer id="285" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/neman/k-500dcnew</url><price>330000</price><currencyId>RUB</currencyId><categoryId>15</categoryId><vendor>Big boat</vendor><vendorCode>k-54</vendorCode><model>Неман 500 DC NEW</model><description>Длина 506 см
+Ширина 195 см
+Высота борта 86 см
+Вес 295 кг
+Грузоподъемность 450 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_0014.png</picture></offer>
+            <offer id="286" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/460dcpro</url><price>247000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-56</vendorCode><model>WB-460 DCM PRO</model><description>Длина 460 см
+Ширина 170 см
+Высота борта 72 см
+Вес 215 кг
+Грузоподъемность 420 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_0024.png</picture></offer>
+            <offer id="287" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/a-boats/rib/490dcpro</url><price>260000</price><currencyId>RUB</currencyId><categoryId>2</categoryId><vendor>Big boat</vendor><vendorCode>к-57</vendorCode><model>WB-490 DCM PRO</model><description>Длина 490 см
+Ширина 170 см
+Высота борта 72 см
+Вес 230 кг
+Грузоподъемность 500 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_0025.png</picture></offer>
+            <offer id="288" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/varyag360</url><price>36000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>v-3</vendorCode><model>Лодка ПВХ Varyag (Варяг) 360</model><description>Длина 360 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 65 кг
+Грузоподъемность 600 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BB_3601.jpg</picture></offer>
+            <offer id="288" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/varyag360</url><price>36000</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>v-3</vendorCode><model>Лодка ПВХ Varyag (Варяг) 360</model><description>Длина 360 см
+Ширина 185 см
+Диаметр борта 50 см
+Вес 65 кг
+Грузоподъемность 600 кг
+Пассажиры 5 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_BB_3601.jpg</picture></offer>
+            <offer id="289" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/varyag-450</url><price>55000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><vendor>Big boat</vendor><vendorCode>v-4</vendorCode><model>Лодка ПВХ Varyag (Варяг) 450</model><description>Длина 450 см
+Ширина 195 см
+Диаметр борта 53 см
+Вес 80 кг
+Грузоподъемность 900 кг
+Пассажиры 8 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1326.jpg</picture><oldprice>60000</oldprice></offer>
+            <offer id="289" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/dinghy/kilevye/varyag-450</url><price>55000</price><currencyId>RUB</currencyId><categoryId>18</categoryId><vendor>Big boat</vendor><vendorCode>v-4</vendorCode><model>Лодка ПВХ Varyag (Варяг) 450</model><description>Длина 450 см
+Ширина 195 см
+Диаметр борта 53 см
+Вес 80 кг
+Грузоподъемность 900 кг
+Пассажиры 8 человек</description><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_1326.jpg</picture><oldprice>60000</oldprice></offer>
+            <offer id="290" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/travec</url><price>1000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><vendorCode>d-34</vendorCode><model>Транец 508</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_12371.jpg</picture></offer>
+            <offer id="292" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/tent-nosovoy</url><price>3000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><model>Тент носовой</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_12352.jpg</picture></offer>
+            <offer id="294" type="vendor.model" available="true"><store>true</store><pickup>true</pickup><delivery>true</delivery><delivery-options><option cost="0" days="0"/></delivery-options><url>http://big-boat.ru/tuning/pvx-equipment/tent-transformer-dlya-lodok-iz-pvh</url><price>12000</price><currencyId>RUB</currencyId><categoryId>3</categoryId><vendor>Big boat</vendor><model>Тент-трансформер для лодок из ПВХ</model><downloadable>true</downloadable><picture>http://big-boat.ru/components/com_jshopping/files/img_products/full_464.jpg</picture></offer>
+        </offers>
+    </shop>
+</yml_catalog>

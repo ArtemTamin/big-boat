@@ -1,0 +1,73 @@
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+ 
+  /* fix buttons height */
+  line-height: 1em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+ 
+.icon-brooksus-home { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x21;&nbsp;'); }
+.icon-brooksus-user { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x22;&nbsp;'); }
+.icon-brooksus-lock { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x23;&nbsp;'); }
+.icon-brooksus-export { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x26;&nbsp;'); }
+.icon-brooksus-plus-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2a;&nbsp;'); }
+.icon-brooksus-th-list { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x31;&nbsp;'); }
+.icon-brooksus-truck { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x33;&nbsp;'); }
+.icon-brooksus-spinner { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x37;&nbsp;'); }
+.icon-brooksus-sun { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x38;&nbsp;'); }
+.icon-brooksus-ok-squared { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x3e;&nbsp;'); }
+.icon-brooksus-help-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x45;&nbsp;'); }
+.icon-brooksus-ok { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x47;&nbsp;'); }
+.icon-brooksus-cancel { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x49;&nbsp;'); }
+.icon-brooksus-cancel-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4a;&nbsp;'); }
+.icon-brooksus-minus-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4b;&nbsp;'); }
+.icon-brooksus-trash { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4c;&nbsp;'); }
+.icon-brooksus-mail-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4d;&nbsp;'); }
+.icon-brooksus-mail { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x4e;&nbsp;'); }
+.icon-brooksus-search { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x53;&nbsp;'); }
+.icon-brooksus-th { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x59;&nbsp;'); }
+.icon-brooksus-plus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x5d;&nbsp;'); }
+.icon-brooksus-minus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x5e;&nbsp;'); }
+.icon-brooksus-key { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x5f;&nbsp;'); }
+.icon-brooksus-zoom-in { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x64;&nbsp;'); }
+.icon-brooksus-zoom-out { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x65;&nbsp;'); }
+.icon-brooksus-resize-full-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x68;&nbsp;'); }
+.icon-brooksus-chart-bar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x76;&nbsp;'); }
+.icon-brooksus-arrows-cw { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe001;&nbsp;'); }
+.icon-brooksus-up-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe005;&nbsp;'); }
+.icon-brooksus-right-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe006;&nbsp;'); }
+.icon-brooksus-down-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe007;&nbsp;'); }
+.icon-brooksus-left-open { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe008;&nbsp;'); }
+.icon-brooksus-angle-up { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe009;&nbsp;'); }
+.icon-brooksus-angle-right { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe00a;&nbsp;'); }
+.icon-brooksus-angle-down { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe00b;&nbsp;'); }
+.icon-brooksus-angle-left { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe00c;&nbsp;'); }
+.icon-brooksus-up-dir { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe00f;&nbsp;'); }
+.icon-brooksus-down-dir { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe011;&nbsp;'); }
+.icon-brooksus-left-dir { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe012;&nbsp;'); }
+.icon-brooksus-basket { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe019;&nbsp;'); }
+.icon-brooksus-link-ext { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe024;&nbsp;'); }
+.icon-brooksus-plus-squared-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe215;&nbsp;'); }
+.icon-brooksus-minus-squared-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe216;&nbsp;'); }
+.icon-brooksus-cancel-circled2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe217;&nbsp;'); }
+.icon-brooksus-ok-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe218;&nbsp;'); }
+.icon-brooksus-ok-circled2 { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe219;&nbsp;'); }
+.icon-brooksus-help { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe222;&nbsp;'); }
+.icon-brooksus-sitemap { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe244;&nbsp;'); }
+.icon-brooksus-phone { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe261;&nbsp;'); }
+.icon-brooksus-lock-open-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe267;&nbsp;'); }
+.icon-brooksus-heart { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe277;&nbsp;'); }
+.icon-brooksus-heart-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe278;&nbsp;'); }
+.icon-brooksus-rouble { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe286;&nbsp;'); }
+.icon-brooksus-right-dir { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe812;&nbsp;'); }
+.icon-brooksus-link-ext-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe82b;&nbsp;'); }
+.icon-brooksus-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe83c;&nbsp;'); }
+.icon-brooksus-vkontakte { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe83d;&nbsp;'); }
+.icon-brooksus-facebook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe83e;&nbsp;'); }
+.icon-brooksus-gplus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe83f;&nbsp;'); }
+.icon-brooksus-skype { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe841;&nbsp;'); }
+.icon-brooksus-youtube { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe842;&nbsp;'); }
