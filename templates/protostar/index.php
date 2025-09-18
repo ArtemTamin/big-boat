@@ -37,6 +37,10 @@ if ($task == "edit" || $layout == "form") {
 }
 // test21 test dev branch
 // Add JavaScript Frameworks
+// dfgdfgdfgdfgdg
+// dfgdfgdfgdfgdg
+// dfgdfgdfgdfgdg
+// dfgdfgdfgdfgdg
 JHtml::_('bootstrap.framework');
 
 $is_gpsi = 0;
